@@ -1,4 +1,4 @@
-# coding = utf-8
+# -*- coding: UTF-8 -*-
 from selenium import webdriver
 import time
 import traceback
@@ -240,7 +240,6 @@ while (0 < 9):
     '._mp': '临时文件_mp',
     '.log': '日志文件',
     '.gid': '临时帮助文件',
-    '.chk': '磁盘检查文件',
     '.old': '临时备份文件',
     '.xlk': 'Excel备份文件',
     '.bak': '临时备份文件bak'
@@ -280,7 +279,7 @@ while (0 < 9):
             bytes = float(bytes)
             kb = bytes / 1024
         except:
-            print("传入的字节格式不对")
+            print("error zijie")
             return "Error"
         if kb >= 1024:
             M = kb / 1024
@@ -316,7 +315,6 @@ while (0 < 9):
 
         def show(self):
             print( json.dumps(self.del_info, indent=4, ensure_ascii=False) )
-            print( '删除可节省:%s 空间' % formatSize(self.total_size) )
 
         def delete_files(self):
             for i in self.del_file_paths:
