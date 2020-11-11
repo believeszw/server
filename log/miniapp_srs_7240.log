@@ -1,0 +1,62 @@
+[2020-11-11 03:41:34.876][trace][22605][0] src/app/srs_app_config.cpp:1548: srs checking config...
+[2020-11-11 03:41:34.876][trace][22605][0] src/app/srs_app_utility.cpp:1261: detect intranet address: 127.0.0.1, ifname=lo
+[2020-11-11 03:41:34.876][trace][22605][0] src/app/srs_app_utility.cpp:1255: retrieve local ipv4 ip=10.0.0.17, index=0
+[2020-11-11 03:41:34.876][trace][22605][0] src/app/srs_app_utility.cpp:1261: detect intranet address: 10.0.0.17, ifname=eth0
+[2020-11-11 03:41:34.876][trace][22605][0] src/app/srs_app_utility.cpp:1255: retrieve local ipv4 ip=172.17.0.1, index=1
+[2020-11-11 03:41:34.876][trace][22605][0] src/app/srs_app_utility.cpp:1261: detect intranet address: 172.17.0.1, ifname=docker0
+[2020-11-11 03:41:34.876][trace][22605][0] src/app/srs_app_utility.cpp:1255: retrieve local ipv4 ip=169.254.254.254, index=2
+[2020-11-11 03:41:34.876][trace][22605][0] src/app/srs_app_utility.cpp:1264: detect internet address: 169.254.254.254, ifname=netdata
+[2020-11-11 03:41:34.876][trace][22605][0] src/app/srs_app_utility.cpp:1255: retrieve local ipv4 ip=169.254.1.153, index=3
+[2020-11-11 03:41:34.876][trace][22605][0] src/app/srs_app_utility.cpp:1264: detect internet address: 169.254.1.153, ifname=gollum
+[2020-11-11 03:41:34.876][warn][22605][0][2] src/app/srs_app_config.cpp:1718: stats network use index=0, ip=10.0.0.17
+[2020-11-11 03:41:34.876][warn][22605][0][2] src/app/srs_app_config.cpp:1723: stats disk not configed, disk iops disabled.
+[2020-11-11 03:41:34.876][trace][22605][0] src/app/srs_app_config.cpp:1764: write log to file /var/log/uap/miniapp_srs_7240.log
+[2020-11-11 03:41:34.876][trace][22605][0] src/app/srs_app_config.cpp:1765: you can: tailf /var/log/uap/miniapp_srs_7240.log
+[2020-11-11 03:41:34.876][trace][22605][0] src/app/srs_app_config.cpp:1766: @see: https://github.com/ossrs/srs/wiki/v1_CN_SrsLog
+[2020-11-11 03:41:34.876][trace][22605][0] src/main/srs_main_server.cpp:295: SRS/2.0.215(ZhouGuowen), stable is SRS/1.0release
+[2020-11-11 03:41:34.876][trace][22605][0] src/main/srs_main_server.cpp:296: license: The MIT License (MIT), Copyright (c) 2013-2015 SRS(ossrs)
+[2020-11-11 03:41:34.876][trace][22605][0] src/main/srs_main_server.cpp:297: primary/master: SRS/1.0release
+[2020-11-11 03:41:34.876][trace][22605][0] src/main/srs_main_server.cpp:298: authors: winlin,wenjie.zhao
+[2020-11-11 03:41:34.876][trace][22605][0] src/main/srs_main_server.cpp:299: contributors: 
+[2020-11-11 03:41:34.876][trace][22605][0] src/main/srs_main_server.cpp:300: uname: Linux 5060d782d3d9 5.4.39-linuxkit #1 SMP Fri May 8 23:03:06 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+[2020-11-11 03:41:34.876][trace][22605][0] src/main/srs_main_server.cpp:301: build: 2020-11-08 10:18:56, little-endian
+[2020-11-11 03:41:34.876][trace][22605][0] src/main/srs_main_server.cpp:302: configure: --x86-x64  --without-utest --without-gperf
+[2020-11-11 03:41:34.876][trace][22605][0] src/main/srs_main_server.cpp:303: features: --prefix=/usr/local/srs --with-hls --with-hds --with-dvr --without-nginx --with-ssl --without-ffmpeg --with-transcode --with-ingest --with-stat --with-http-callback --with-http-server --without-stream-caster --with-http-api --with-librtmp --without-research --without-utest --without-gperf --without-gmc --without-gmp --without-gcp --without-gprof --without-arm-ubuntu12 --without-mips-ubuntu12 --log-trace
+[2020-11-11 03:41:34.876][trace][22605][0] src/main/srs_main_server.cpp:308: conf: conf/rtmp-7240.conf, limit: 1000, external shell: 
+[2020-11-11 03:41:34.876][trace][22605][0] src/main/srs_main_server.cpp:210: writev limits write 1024 iovs a time
+[2020-11-11 03:41:34.876][warn][22605][0][2] src/main/srs_main_server.cpp:214: SRS 2.0.215 is not stable, please use stable branch 1.0release instead
+[2020-11-11 03:41:34.877][trace][22605][0] src/main/srs_main_server.cpp:233: cpu is amd64, glibc 2.19
+[2020-11-11 03:41:34.877][trace][22605][0] src/main/srs_main_server.cpp:236: cpu is x86_64, glibc 2.19
+[2020-11-11 03:41:34.877][trace][22605][0] src/main/srs_main_server.cpp:66: check feature rtmp handshake: on
+[2020-11-11 03:41:34.877][trace][22605][0] src/main/srs_main_server.cpp:72: check feature hls: on
+[2020-11-11 03:41:34.877][trace][22605][0] src/main/srs_main_server.cpp:78: check feature hds: on
+[2020-11-11 03:41:34.877][trace][22605][0] src/main/srs_main_server.cpp:84: check feature http callback: on
+[2020-11-11 03:41:34.877][trace][22605][0] src/main/srs_main_server.cpp:90: check feature http api: on
+[2020-11-11 03:41:34.877][trace][22605][0] src/main/srs_main_server.cpp:96: check feature http server: on
+[2020-11-11 03:41:34.877][trace][22605][0] src/main/srs_main_server.cpp:102: check feature http parser: on
+[2020-11-11 03:41:34.877][trace][22605][0] src/main/srs_main_server.cpp:108: check feature dvr: on
+[2020-11-11 03:41:34.877][trace][22605][0] src/main/srs_main_server.cpp:114: check feature transcode: on
+[2020-11-11 03:41:34.877][trace][22605][0] src/main/srs_main_server.cpp:120: check feature ingest: on
+[2020-11-11 03:41:34.877][trace][22605][0] src/main/srs_main_server.cpp:126: check feature system stat: on
+[2020-11-11 03:41:34.877][warn][22605][0][2] src/main/srs_main_server.cpp:134: check feature compile nginx: off
+[2020-11-11 03:41:34.877][warn][22605][0][2] src/main/srs_main_server.cpp:140: check feature compile ffmpeg: off
+[2020-11-11 03:41:34.877][warn][22605][0][2] src/main/srs_main_server.cpp:146: stream caster: off
+[2020-11-11 03:41:34.877][trace][22605][0] src/main/srs_main_server.cpp:150: MR(merged-read): on, @see https://github.com/ossrs/srs/issues/241
+[2020-11-11 03:41:34.877][trace][22605][0] src/main/srs_main_server.cpp:155: MR(merged-read) default 0 sleep 350
+[2020-11-11 03:41:34.877][trace][22605][0] src/main/srs_main_server.cpp:156: MW(merged-write) default sleep 350
+[2020-11-11 03:41:34.877][trace][22605][0] src/main/srs_main_server.cpp:157: read chunk stream cache cid [0, 16)
+[2020-11-11 03:41:34.877][trace][22605][0] src/main/srs_main_server.cpp:158: default gop cache 1, play queue 350s
+[2020-11-11 03:41:34.877][trace][22605][0] src/main/srs_main_server.cpp:163: complex send algorithm enabled.
+[2020-11-11 03:41:34.877][warn][22605][0][2] src/main/srs_main_server.cpp:167: TCP_NODELAY enabled, may hurts performance.
+[2020-11-11 03:41:34.877][trace][22605][0] src/main/srs_main_server.cpp:175: auto guess socket send buffer by merged write
+[2020-11-11 03:41:34.877][trace][22605][0] src/main/srs_main_server.cpp:183: system default latency in ms: mw(0-350) + mr(0-350) + play-queue(0--1997507904)
+[2020-11-11 03:41:34.877][trace][22605][0] src/app/srs_app_http_static.cpp:269: http: root mount to ./objs/nginx/html
+[2020-11-11 03:41:34.877][trace][22605][0] src/app/srs_app_http_conn.cpp:1369: Init shell: 
+[2020-11-11 03:41:34.877][trace][22605][0] src/app/srs_app_st.cpp:222: st_set_eventsys to epoll
+[2020-11-11 03:41:34.877][trace][22605][0] src/app/srs_app_st.cpp:229: st_init success, use epoll
+[2020-11-11 03:41:34.877][trace][22605][100] src/app/srs_app_server.cpp:645: server main cid=100
+[2020-11-11 03:41:34.877][trace][22605][100] src/app/srs_app_server.cpp:730: write pid=22605 to /var/run/srs-7240.pid success!
+[2020-11-11 03:41:34.887][trace][22605][100] src/app/srs_app_server.cpp:165: RTMP listen at tcp://0.0.0.0:7240, fd=9
+[2020-11-11 03:41:34.887][trace][22605][100] src/app/srs_app_server.cpp:443: signal installed
+[2020-11-11 03:41:34.897][trace][22605][100] src/app/srs_app_server.cpp:838: http: api mount /console to ./objs/nginx/html/console
+[2020-11-11 03:41:34.908][trace][22605][100] src/app/srs_app_ingest.cpp:139: ingest thread cid=103, current_cid=100

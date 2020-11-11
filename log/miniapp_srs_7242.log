@@ -1,0 +1,538 @@
+[2020-11-11 03:38:29.566][trace][18432][0] src/app/srs_app_config.cpp:1548: srs checking config...
+[2020-11-11 03:38:29.567][trace][18432][0] src/app/srs_app_utility.cpp:1261: detect intranet address: 127.0.0.1, ifname=lo
+[2020-11-11 03:38:29.567][trace][18432][0] src/app/srs_app_utility.cpp:1255: retrieve local ipv4 ip=10.0.0.17, index=0
+[2020-11-11 03:38:29.567][trace][18432][0] src/app/srs_app_utility.cpp:1261: detect intranet address: 10.0.0.17, ifname=eth0
+[2020-11-11 03:38:29.567][trace][18432][0] src/app/srs_app_utility.cpp:1255: retrieve local ipv4 ip=172.17.0.1, index=1
+[2020-11-11 03:38:29.567][trace][18432][0] src/app/srs_app_utility.cpp:1261: detect intranet address: 172.17.0.1, ifname=docker0
+[2020-11-11 03:38:29.567][trace][18432][0] src/app/srs_app_utility.cpp:1255: retrieve local ipv4 ip=169.254.254.254, index=2
+[2020-11-11 03:38:29.567][trace][18432][0] src/app/srs_app_utility.cpp:1264: detect internet address: 169.254.254.254, ifname=netdata
+[2020-11-11 03:38:29.567][trace][18432][0] src/app/srs_app_utility.cpp:1255: retrieve local ipv4 ip=169.254.1.153, index=3
+[2020-11-11 03:38:29.567][trace][18432][0] src/app/srs_app_utility.cpp:1264: detect internet address: 169.254.1.153, ifname=gollum
+[2020-11-11 03:38:29.567][warn][18432][0][2] src/app/srs_app_config.cpp:1718: stats network use index=0, ip=10.0.0.17
+[2020-11-11 03:38:29.567][warn][18432][0][2] src/app/srs_app_config.cpp:1723: stats disk not configed, disk iops disabled.
+[2020-11-11 03:38:29.567][trace][18432][0] src/app/srs_app_config.cpp:1764: write log to file /var/log/uap/miniapp_srs_7242.log
+[2020-11-11 03:38:29.567][trace][18432][0] src/app/srs_app_config.cpp:1765: you can: tailf /var/log/uap/miniapp_srs_7242.log
+[2020-11-11 03:38:29.567][trace][18432][0] src/app/srs_app_config.cpp:1766: @see: https://github.com/ossrs/srs/wiki/v1_CN_SrsLog
+[2020-11-11 03:38:29.567][trace][18432][0] src/main/srs_main_server.cpp:295: SRS/2.0.215(ZhouGuowen), stable is SRS/1.0release
+[2020-11-11 03:38:29.567][trace][18432][0] src/main/srs_main_server.cpp:296: license: The MIT License (MIT), Copyright (c) 2013-2015 SRS(ossrs)
+[2020-11-11 03:38:29.567][trace][18432][0] src/main/srs_main_server.cpp:297: primary/master: SRS/1.0release
+[2020-11-11 03:38:29.567][trace][18432][0] src/main/srs_main_server.cpp:298: authors: winlin,wenjie.zhao
+[2020-11-11 03:38:29.567][trace][18432][0] src/main/srs_main_server.cpp:299: contributors: 
+[2020-11-11 03:38:29.567][trace][18432][0] src/main/srs_main_server.cpp:300: uname: Linux 5060d782d3d9 5.4.39-linuxkit #1 SMP Fri May 8 23:03:06 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+[2020-11-11 03:38:29.567][trace][18432][0] src/main/srs_main_server.cpp:301: build: 2020-11-08 10:18:56, little-endian
+[2020-11-11 03:38:29.567][trace][18432][0] src/main/srs_main_server.cpp:302: configure: --x86-x64  --without-utest --without-gperf
+[2020-11-11 03:38:29.567][trace][18432][0] src/main/srs_main_server.cpp:303: features: --prefix=/usr/local/srs --with-hls --with-hds --with-dvr --without-nginx --with-ssl --without-ffmpeg --with-transcode --with-ingest --with-stat --with-http-callback --with-http-server --without-stream-caster --with-http-api --with-librtmp --without-research --without-utest --without-gperf --without-gmc --without-gmp --without-gcp --without-gprof --without-arm-ubuntu12 --without-mips-ubuntu12 --log-trace
+[2020-11-11 03:38:29.567][trace][18432][0] src/main/srs_main_server.cpp:308: conf: conf/rtmp-7242.conf, limit: 1000, external shell: 
+[2020-11-11 03:38:29.567][trace][18432][0] src/main/srs_main_server.cpp:210: writev limits write 1024 iovs a time
+[2020-11-11 03:38:29.567][warn][18432][0][2] src/main/srs_main_server.cpp:214: SRS 2.0.215 is not stable, please use stable branch 1.0release instead
+[2020-11-11 03:38:29.567][trace][18432][0] src/main/srs_main_server.cpp:233: cpu is amd64, glibc 2.19
+[2020-11-11 03:38:29.567][trace][18432][0] src/main/srs_main_server.cpp:236: cpu is x86_64, glibc 2.19
+[2020-11-11 03:38:29.567][trace][18432][0] src/main/srs_main_server.cpp:66: check feature rtmp handshake: on
+[2020-11-11 03:38:29.567][trace][18432][0] src/main/srs_main_server.cpp:72: check feature hls: on
+[2020-11-11 03:38:29.567][trace][18432][0] src/main/srs_main_server.cpp:78: check feature hds: on
+[2020-11-11 03:38:29.567][trace][18432][0] src/main/srs_main_server.cpp:84: check feature http callback: on
+[2020-11-11 03:38:29.567][trace][18432][0] src/main/srs_main_server.cpp:90: check feature http api: on
+[2020-11-11 03:38:29.567][trace][18432][0] src/main/srs_main_server.cpp:96: check feature http server: on
+[2020-11-11 03:38:29.567][trace][18432][0] src/main/srs_main_server.cpp:102: check feature http parser: on
+[2020-11-11 03:38:29.567][trace][18432][0] src/main/srs_main_server.cpp:108: check feature dvr: on
+[2020-11-11 03:38:29.567][trace][18432][0] src/main/srs_main_server.cpp:114: check feature transcode: on
+[2020-11-11 03:38:29.567][trace][18432][0] src/main/srs_main_server.cpp:120: check feature ingest: on
+[2020-11-11 03:38:29.567][trace][18432][0] src/main/srs_main_server.cpp:126: check feature system stat: on
+[2020-11-11 03:38:29.567][warn][18432][0][2] src/main/srs_main_server.cpp:134: check feature compile nginx: off
+[2020-11-11 03:38:29.567][warn][18432][0][2] src/main/srs_main_server.cpp:140: check feature compile ffmpeg: off
+[2020-11-11 03:38:29.567][warn][18432][0][2] src/main/srs_main_server.cpp:146: stream caster: off
+[2020-11-11 03:38:29.567][trace][18432][0] src/main/srs_main_server.cpp:150: MR(merged-read): on, @see https://github.com/ossrs/srs/issues/241
+[2020-11-11 03:38:29.567][trace][18432][0] src/main/srs_main_server.cpp:155: MR(merged-read) default 0 sleep 350
+[2020-11-11 03:38:29.567][trace][18432][0] src/main/srs_main_server.cpp:156: MW(merged-write) default sleep 350
+[2020-11-11 03:38:29.567][trace][18432][0] src/main/srs_main_server.cpp:157: read chunk stream cache cid [0, 16)
+[2020-11-11 03:38:29.567][trace][18432][0] src/main/srs_main_server.cpp:158: default gop cache 1, play queue 350s
+[2020-11-11 03:38:29.567][trace][18432][0] src/main/srs_main_server.cpp:163: complex send algorithm enabled.
+[2020-11-11 03:38:29.567][warn][18432][0][2] src/main/srs_main_server.cpp:167: TCP_NODELAY enabled, may hurts performance.
+[2020-11-11 03:38:29.567][trace][18432][0] src/main/srs_main_server.cpp:175: auto guess socket send buffer by merged write
+[2020-11-11 03:38:29.567][trace][18432][0] src/main/srs_main_server.cpp:183: system default latency in ms: mw(0-350) + mr(0-350) + play-queue(0-1149982976)
+[2020-11-11 03:38:29.567][trace][18432][0] src/app/srs_app_http_static.cpp:269: http: root mount to ./objs/nginx/html
+[2020-11-11 03:38:29.567][trace][18432][0] src/app/srs_app_http_conn.cpp:1369: Init shell: 
+[2020-11-11 03:38:29.567][trace][18432][0] src/app/srs_app_st.cpp:222: st_set_eventsys to epoll
+[2020-11-11 03:38:29.567][trace][18432][0] src/app/srs_app_st.cpp:229: st_init success, use epoll
+[2020-11-11 03:38:29.567][trace][18432][100] src/app/srs_app_server.cpp:645: server main cid=100
+[2020-11-11 03:38:29.567][trace][18432][100] src/app/srs_app_server.cpp:730: write pid=18432 to /var/run/srs-7242.pid success!
+[2020-11-11 03:38:29.578][trace][18432][100] src/app/srs_app_server.cpp:165: RTMP listen at tcp://0.0.0.0:7242, fd=9
+[2020-11-11 03:38:29.578][trace][18432][100] src/app/srs_app_server.cpp:443: signal installed
+[2020-11-11 03:38:29.588][trace][18432][100] src/app/srs_app_server.cpp:838: http: api mount /console to ./objs/nginx/html/console
+[2020-11-11 03:38:29.598][trace][18432][100] src/app/srs_app_ingest.cpp:139: ingest thread cid=103, current_cid=100
+[2020-11-11 03:38:39.291][trace][18432][0] src/app/srs_app_agora.cpp:1094: I(2323) join channel(sdktest_112) success.
+[2020-11-11 03:38:40.205][trace][18432][0] src/app/srs_app_agora.cpp:732: user(1334231568) joined.
+[2020-11-11 03:38:40.233][trace][18432][104] src/app/srs_app_agora.cpp:1050: SrsAgoraGateWay:cycle on_publish: stream=9KdHXE2JsMk6trhub3DJ23vYXsAOjcgl.
+[2020-11-11 03:38:40.233][trace][18432][104] src/app/srs_app_source.cpp:1730: 4B audio sh, codec(10, profile=LC, 1channels, 0kbps, 48000HZ), flv(16bits, 2channels, 44100HZ)
+[2020-11-11 03:38:40.461][trace][18432][101] src/app/srs_app_server.cpp:179: accept client, type: 0
+[2020-11-11 03:38:40.471][trace][18432][108] src/app/srs_app_rtmp_conn.cpp:138: RTMP client ip=183.134.94.123
+[2020-11-11 03:38:40.471][trace][18432][108] src/protocol/srs_rtmp_utility.cpp:113: srand initialized the random.
+[2020-11-11 03:38:40.511][trace][18432][101] src/app/srs_app_server.cpp:179: accept client, type: 0
+[2020-11-11 03:38:40.511][trace][18432][110] src/app/srs_app_rtmp_conn.cpp:138: RTMP client ip=183.134.94.123
+[2020-11-11 03:38:40.512][trace][18432][108] src/protocol/srs_rtmp_handshake.cpp:1131: simple handshake success.
+[2020-11-11 03:38:40.514][trace][18432][108] src/app/srs_app_rtmp_conn.cpp:186: connect app, tcUrl=rtmp://120.131.14.112:7242/live, pageUrl=, swfUrl=, schema=rtmp, vhost=__defaultVhost__, port=7242, app=live, args=null
+[2020-11-11 03:38:40.514][trace][18432][108] src/protocol/srs_rtmp_stack.cpp:1579: out chunk size to 256
+[2020-11-11 03:38:40.554][trace][18432][110] src/protocol/srs_rtmp_handshake.cpp:1131: simple handshake success.
+[2020-11-11 03:38:40.554][trace][18432][110] src/app/srs_app_rtmp_conn.cpp:186: connect app, tcUrl=rtmp://120.131.14.112:7242/live, pageUrl=, swfUrl=, schema=rtmp, vhost=__defaultVhost__, port=7242, app=live, args=null
+[2020-11-11 03:38:40.554][trace][18432][110] src/protocol/srs_rtmp_stack.cpp:1579: out chunk size to 256
+[2020-11-11 03:38:40.629][trace][18432][108] src/protocol/srs_rtmp_stack.cpp:1508: set ack window size to 2500000
+[2020-11-11 03:38:40.661][trace][18432][108] src/protocol/srs_rtmp_stack.cpp:1547: ignored. set buffer length to 300
+[2020-11-11 03:38:40.661][trace][18432][108] src/protocol/srs_rtmp_stack.cpp:3224: ignore AMF0/AMF3 command message.
+[2020-11-11 03:38:40.661][trace][18432][108] src/protocol/srs_rtmp_stack.cpp:3224: ignore AMF0/AMF3 command message.
+[2020-11-11 03:38:40.701][trace][18432][110] src/protocol/srs_rtmp_stack.cpp:1508: set ack window size to 2500000
+[2020-11-11 03:38:40.701][trace][18432][110] src/protocol/srs_rtmp_stack.cpp:1547: ignored. set buffer length to 300
+[2020-11-11 03:38:40.701][trace][18432][110] src/protocol/srs_rtmp_stack.cpp:3224: ignore AMF0/AMF3 command message.
+[2020-11-11 03:38:40.701][trace][18432][110] src/protocol/srs_rtmp_stack.cpp:3224: ignore AMF0/AMF3 command message.
+[2020-11-11 03:38:40.701][trace][18432][108] src/app/srs_app_rtmp_conn.cpp:495: client identified, type=Play, stream_name=9KdHXE2JsMk6trhub3DJ23vYXsAOjcgl, duration=-1.00
+[2020-11-11 03:38:40.701][trace][18432][108] src/app/srs_app_rtmp_conn.cpp:561: source url=/live/9KdHXE2JsMk6trhub3DJ23vYXsAOjcgl, ip=183.134.94.123, cache=0, is_edge=0, source_id=104[104]
+[2020-11-11 03:38:40.701][trace][18432][108] src/app/srs_app_source.cpp:701: dispatch cached gop success. count=0, duration=0
+[2020-11-11 03:38:40.701][trace][18432][108] src/app/srs_app_source.cpp:2375: create consumer, queue_size=5.00, jitter=2
+[2020-11-11 03:38:40.701][trace][18432][108] src/app/srs_app_agora.cpp:316: SrsAgoraGateWay::on_play: conn=56368144, stream=9KdHXE2JsMk6trhub3DJ23vYXsAOjcgl
+[2020-11-11 03:38:40.711][trace][18432][108] src/app/srs_app_rtmp_conn.cpp:1302: set TCP_NODELAY 0=>1
+[2020-11-11 03:38:40.711][trace][18432][108] src/app/srs_app_rtmp_conn.cpp:728: start play smi=0.00, mw_sleep=30, mw_enabled=1, realtime=1, tcp_nodelay=1
+[2020-11-11 03:38:40.711][trace][18432][111] src/protocol/srs_rtmp_stack.cpp:1547: ignored. set buffer length to 3600000
+[2020-11-11 03:38:40.741][trace][18432][110] src/app/srs_app_rtmp_conn.cpp:495: client identified, type=Play, stream_name=9KdHXE2JsMk6trhub3DJ23vYXsAOjcgl, duration=-1.00
+[2020-11-11 03:38:40.741][trace][18432][110] src/app/srs_app_rtmp_conn.cpp:561: source url=/live/9KdHXE2JsMk6trhub3DJ23vYXsAOjcgl, ip=183.134.94.123, cache=0, is_edge=0, source_id=104[104]
+[2020-11-11 03:38:40.742][trace][18432][110] src/app/srs_app_source.cpp:701: dispatch cached gop success. count=0, duration=0
+[2020-11-11 03:38:40.742][trace][18432][110] src/app/srs_app_source.cpp:2375: create consumer, queue_size=5.00, jitter=2
+[2020-11-11 03:38:40.742][trace][18432][110] src/app/srs_app_agora.cpp:316: SrsAgoraGateWay::on_play: conn=56367424, stream=9KdHXE2JsMk6trhub3DJ23vYXsAOjcgl
+[2020-11-11 03:38:40.751][trace][18432][110] src/app/srs_app_rtmp_conn.cpp:1302: set TCP_NODELAY 0=>1
+[2020-11-11 03:38:40.751][trace][18432][110] src/app/srs_app_rtmp_conn.cpp:728: start play smi=0.00, mw_sleep=30, mw_enabled=1, realtime=1, tcp_nodelay=1
+[2020-11-11 03:38:40.751][trace][18432][112] src/protocol/srs_rtmp_stack.cpp:1547: ignored. set buffer length to 3600000
+[2020-11-11 03:38:40.797][trace][18432][108] src/app/srs_app_agora.cpp:324: SrsAgoraGateWay::on_unplay: conn=56368144, stream=9KdHXE2JsMk6trhub3DJ23vYXsAOjcgl
+[2020-11-11 03:38:40.797][warn][18432][108][4] src/app/srs_app_conn.cpp:103: client disconnect peer. ret=1004
+[2020-11-11 03:38:41.584][trace][18432][101] src/app/srs_app_server.cpp:179: accept client, type: 0
+[2020-11-11 03:38:41.594][trace][18432][114] src/app/srs_app_rtmp_conn.cpp:138: RTMP client ip=183.134.94.123
+[2020-11-11 03:38:41.638][trace][18432][114] src/protocol/srs_rtmp_handshake.cpp:1131: simple handshake success.
+[2020-11-11 03:38:41.639][trace][18432][114] src/app/srs_app_rtmp_conn.cpp:186: connect app, tcUrl=rtmp://120.131.14.112:7242/live, pageUrl=, swfUrl=, schema=rtmp, vhost=__defaultVhost__, port=7242, app=live, args=null
+[2020-11-11 03:38:41.639][trace][18432][114] src/protocol/srs_rtmp_stack.cpp:1579: out chunk size to 256
+[2020-11-11 03:38:41.772][trace][18432][114] src/app/srs_app_rtmp_conn.cpp:495: client identified, type=fmle-publish, stream_name=b8atqj9gfFU5F3vzOCmzE5guhWUl9Yre, duration=-1.00
+[2020-11-11 03:38:41.792][trace][18432][114] src/app/srs_app_rtmp_conn.cpp:561: source url=local/live/b8atqj9gfFU5F3vzOCmzE5guhWUl9Yre, ip=183.134.94.123, cache=0, is_edge=0, source_id=-1[-1]
+[2020-11-11 03:38:41.897][trace][18432][114] src/app/srs_app_agora.cpp:299: SrsAgoraGateWay::on_publish stream=b8atqj9gfFU5F3vzOCmzE5guhWUl9Yre
+[2020-11-11 03:38:41.898][trace][18432][117] src/app/srs_app_recv_thread.cpp:542: SrsPublishRecvThread: set TCP_NODELAY 0=>1
+[2020-11-11 03:38:41.907][trace][18432][114] src/app/srs_app_rtmp_conn.cpp:1302: set TCP_NODELAY 1=>1
+[2020-11-11 03:38:41.907][trace][18432][114] src/app/srs_app_rtmp_conn.cpp:950: start publish mr=0/350, p1stpt=20000, pnt=20000, tcp_nodelay=1, rtcid=117
+[2020-11-11 03:38:41.943][trace][18432][117] src/protocol/srs_rtmp_stack.cpp:1538: input chunk size to 256
+[2020-11-11 03:38:41.945][trace][18432][114] src/app/srs_app_source.cpp:1974: 44B video sh,  codec(7, profile=High, level=4.1, 368x640, 0kbps, 0fps, 0s)
+[2020-11-11 03:38:41.988][trace][18432][114] src/app/srs_app_source.cpp:1730: 4B audio sh, codec(10, profile=LC, 1channels, 0kbps, 48000HZ), flv(16bits, 2channels, 44100HZ)
+[2020-11-11 03:38:49.737][trace][18432][0] src/app/srs_app_agora.cpp:1126: user(1334231568) offline, reason code: 0.
+[2020-11-11 03:38:55.205][trace][18432][0] src/app/srs_app_agora.cpp:732: user(3458270401) joined.
+[2020-11-11 03:38:55.233][trace][18432][104] src/app/srs_app_agora.cpp:1050: SrsAgoraGateWay:cycle on_publish: stream=zqxwAi1YVnQo6NSYjwEsGJKBOniKFPgm.
+[2020-11-11 03:38:55.233][trace][18432][104] src/app/srs_app_source.cpp:1730: 4B audio sh, codec(10, profile=LC, 1channels, 0kbps, 48000HZ), flv(16bits, 2channels, 44100HZ)
+[2020-11-11 03:38:55.462][trace][18432][101] src/app/srs_app_server.cpp:179: accept client, type: 0
+[2020-11-11 03:38:55.472][trace][18432][121] src/app/srs_app_rtmp_conn.cpp:138: RTMP client ip=183.134.94.123
+[2020-11-11 03:38:55.513][trace][18432][121] src/protocol/srs_rtmp_handshake.cpp:1131: simple handshake success.
+[2020-11-11 03:38:55.514][trace][18432][121] src/app/srs_app_rtmp_conn.cpp:186: connect app, tcUrl=rtmp://120.131.14.112:7242/live, pageUrl=, swfUrl=, schema=rtmp, vhost=__defaultVhost__, port=7242, app=live, args=null
+[2020-11-11 03:38:55.514][trace][18432][121] src/protocol/srs_rtmp_stack.cpp:1579: out chunk size to 256
+[2020-11-11 03:38:55.525][trace][18432][101] src/app/srs_app_server.cpp:179: accept client, type: 0
+[2020-11-11 03:38:55.525][trace][18432][123] src/app/srs_app_rtmp_conn.cpp:138: RTMP client ip=183.134.94.123
+[2020-11-11 03:38:55.570][trace][18432][123] src/protocol/srs_rtmp_handshake.cpp:1131: simple handshake success.
+[2020-11-11 03:38:55.571][trace][18432][123] src/app/srs_app_rtmp_conn.cpp:186: connect app, tcUrl=rtmp://120.131.14.112:7242/live, pageUrl=, swfUrl=, schema=rtmp, vhost=__defaultVhost__, port=7242, app=live, args=null
+[2020-11-11 03:38:55.571][trace][18432][123] src/protocol/srs_rtmp_stack.cpp:1579: out chunk size to 256
+[2020-11-11 03:38:55.663][trace][18432][121] src/protocol/srs_rtmp_stack.cpp:1508: set ack window size to 2500000
+[2020-11-11 03:38:55.664][trace][18432][121] src/protocol/srs_rtmp_stack.cpp:1547: ignored. set buffer length to 300
+[2020-11-11 03:38:55.664][trace][18432][121] src/protocol/srs_rtmp_stack.cpp:3224: ignore AMF0/AMF3 command message.
+[2020-11-11 03:38:55.665][trace][18432][121] src/protocol/srs_rtmp_stack.cpp:3224: ignore AMF0/AMF3 command message.
+[2020-11-11 03:38:55.696][trace][18432][123] src/protocol/srs_rtmp_stack.cpp:1508: set ack window size to 2500000
+[2020-11-11 03:38:55.697][trace][18432][123] src/protocol/srs_rtmp_stack.cpp:1547: ignored. set buffer length to 300
+[2020-11-11 03:38:55.698][trace][18432][123] src/protocol/srs_rtmp_stack.cpp:3224: ignore AMF0/AMF3 command message.
+[2020-11-11 03:38:55.699][trace][18432][123] src/protocol/srs_rtmp_stack.cpp:3224: ignore AMF0/AMF3 command message.
+[2020-11-11 03:38:55.709][trace][18432][121] src/app/srs_app_rtmp_conn.cpp:495: client identified, type=Play, stream_name=zqxwAi1YVnQo6NSYjwEsGJKBOniKFPgm, duration=-1.00
+[2020-11-11 03:38:55.709][trace][18432][121] src/app/srs_app_rtmp_conn.cpp:561: source url=/live/zqxwAi1YVnQo6NSYjwEsGJKBOniKFPgm, ip=183.134.94.123, cache=0, is_edge=0, source_id=104[104]
+[2020-11-11 03:38:55.710][trace][18432][121] src/app/srs_app_source.cpp:701: dispatch cached gop success. count=0, duration=0
+[2020-11-11 03:38:55.710][trace][18432][121] src/app/srs_app_source.cpp:2375: create consumer, queue_size=5.00, jitter=2
+[2020-11-11 03:38:55.710][trace][18432][121] src/app/srs_app_agora.cpp:316: SrsAgoraGateWay::on_play: conn=56718304, stream=zqxwAi1YVnQo6NSYjwEsGJKBOniKFPgm
+[2020-11-11 03:38:55.719][trace][18432][121] src/app/srs_app_rtmp_conn.cpp:1302: set TCP_NODELAY 0=>1
+[2020-11-11 03:38:55.719][trace][18432][121] src/app/srs_app_rtmp_conn.cpp:728: start play smi=0.00, mw_sleep=30, mw_enabled=1, realtime=1, tcp_nodelay=1
+[2020-11-11 03:38:55.719][trace][18432][124] src/protocol/srs_rtmp_stack.cpp:1547: ignored. set buffer length to 3600000
+[2020-11-11 03:38:55.742][trace][18432][123] src/app/srs_app_rtmp_conn.cpp:495: client identified, type=Play, stream_name=zqxwAi1YVnQo6NSYjwEsGJKBOniKFPgm, duration=-1.00
+[2020-11-11 03:38:55.742][trace][18432][123] src/app/srs_app_rtmp_conn.cpp:561: source url=/live/zqxwAi1YVnQo6NSYjwEsGJKBOniKFPgm, ip=183.134.94.123, cache=0, is_edge=0, source_id=104[104]
+[2020-11-11 03:38:55.742][trace][18432][123] src/app/srs_app_source.cpp:701: dispatch cached gop success. count=0, duration=0
+[2020-11-11 03:38:55.742][trace][18432][123] src/app/srs_app_source.cpp:2375: create consumer, queue_size=5.00, jitter=2
+[2020-11-11 03:38:55.742][trace][18432][123] src/app/srs_app_agora.cpp:316: SrsAgoraGateWay::on_play: conn=56401264, stream=zqxwAi1YVnQo6NSYjwEsGJKBOniKFPgm
+[2020-11-11 03:38:55.752][trace][18432][123] src/app/srs_app_rtmp_conn.cpp:1302: set TCP_NODELAY 0=>1
+[2020-11-11 03:38:55.752][trace][18432][123] src/app/srs_app_rtmp_conn.cpp:728: start play smi=0.00, mw_sleep=30, mw_enabled=1, realtime=1, tcp_nodelay=1
+[2020-11-11 03:38:55.752][trace][18432][125] src/protocol/srs_rtmp_stack.cpp:1547: ignored. set buffer length to 3600000
+[2020-11-11 03:38:55.846][trace][18432][121] src/app/srs_app_agora.cpp:324: SrsAgoraGateWay::on_unplay: conn=56718304, stream=zqxwAi1YVnQo6NSYjwEsGJKBOniKFPgm
+[2020-11-11 03:38:55.846][warn][18432][121][4] src/app/srs_app_conn.cpp:103: client disconnect peer. ret=1004
+[2020-11-11 03:38:59.787][trace][18432][123] src/app/srs_app_rtmp_conn.cpp:807: -> PLA time=4000, msgs=1, okbps=65,0,0, ikbps=7,0,0, mw=30
+[2020-11-11 03:38:59.986][trace][18432][0] src/app/srs_app_agora.cpp:1126: user(3458270401) offline, reason code: 0.
+[2020-11-11 03:39:00.129][trace][18432][110] src/app/srs_app_agora.cpp:324: SrsAgoraGateWay::on_unplay: conn=56367424, stream=9KdHXE2JsMk6trhub3DJ23vYXsAOjcgl
+[2020-11-11 03:39:00.129][warn][18432][110][104] src/app/srs_app_conn.cpp:103: client disconnect peer. ret=1004
+[2020-11-11 03:39:05.977][trace][18432][0] src/app/srs_app_agora.cpp:732: user(2700162739) joined.
+[2020-11-11 03:39:05.977][trace][18432][0] src/app/srs_app_agora.cpp:877: update sps/pps. (stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67)
+[2020-11-11 03:39:05.998][trace][18432][104] src/app/srs_app_agora.cpp:1050: SrsAgoraGateWay:cycle on_publish: stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67.
+[2020-11-11 03:39:06.189][trace][18432][104] src/app/srs_app_source.cpp:1974: 34B video sh,  codec(7, profile=Baseline, level=3.1, 640x480, 0kbps, 0fps, 0s)
+[2020-11-11 03:39:06.189][trace][18432][104] src/app/srs_app_source.cpp:1730: 4B audio sh, codec(10, profile=LC, 1channels, 0kbps, 48000HZ), flv(16bits, 2channels, 44100HZ)
+[2020-11-11 03:39:06.265][trace][18432][101] src/app/srs_app_server.cpp:179: accept client, type: 0
+[2020-11-11 03:39:06.265][trace][18432][129] src/app/srs_app_rtmp_conn.cpp:138: RTMP client ip=183.134.94.123
+[2020-11-11 03:39:06.317][trace][18432][129] src/protocol/srs_rtmp_handshake.cpp:1131: simple handshake success.
+[2020-11-11 03:39:06.317][trace][18432][129] src/app/srs_app_rtmp_conn.cpp:186: connect app, tcUrl=rtmp://120.131.14.112:7242/live, pageUrl=, swfUrl=, schema=rtmp, vhost=__defaultVhost__, port=7242, app=live, args=null
+[2020-11-11 03:39:06.317][trace][18432][129] src/protocol/srs_rtmp_stack.cpp:1579: out chunk size to 256
+[2020-11-11 03:39:06.325][trace][18432][101] src/app/srs_app_server.cpp:179: accept client, type: 0
+[2020-11-11 03:39:06.325][trace][18432][131] src/app/srs_app_rtmp_conn.cpp:138: RTMP client ip=183.134.94.123
+[2020-11-11 03:39:06.374][trace][18432][131] src/protocol/srs_rtmp_handshake.cpp:1131: simple handshake success.
+[2020-11-11 03:39:06.375][trace][18432][131] src/app/srs_app_rtmp_conn.cpp:186: connect app, tcUrl=rtmp://120.131.14.112:7242/live, pageUrl=, swfUrl=, schema=rtmp, vhost=__defaultVhost__, port=7242, app=live, args=null
+[2020-11-11 03:39:06.375][trace][18432][131] src/protocol/srs_rtmp_stack.cpp:1579: out chunk size to 256
+[2020-11-11 03:39:06.469][trace][18432][129] src/protocol/srs_rtmp_stack.cpp:1508: set ack window size to 2500000
+[2020-11-11 03:39:06.470][trace][18432][129] src/protocol/srs_rtmp_stack.cpp:1547: ignored. set buffer length to 300
+[2020-11-11 03:39:06.470][trace][18432][129] src/protocol/srs_rtmp_stack.cpp:3224: ignore AMF0/AMF3 command message.
+[2020-11-11 03:39:06.470][trace][18432][129] src/protocol/srs_rtmp_stack.cpp:3224: ignore AMF0/AMF3 command message.
+[2020-11-11 03:39:06.513][trace][18432][129] src/app/srs_app_rtmp_conn.cpp:495: client identified, type=Play, stream_name=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67, duration=-1.00
+[2020-11-11 03:39:06.513][trace][18432][129] src/app/srs_app_rtmp_conn.cpp:561: source url=/live/qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67, ip=183.134.94.123, cache=0, is_edge=0, source_id=104[104]
+[2020-11-11 03:39:06.513][trace][18432][129] src/app/srs_app_source.cpp:701: dispatch cached gop success. count=0, duration=0
+[2020-11-11 03:39:06.513][trace][18432][129] src/app/srs_app_source.cpp:2375: create consumer, queue_size=5.00, jitter=2
+[2020-11-11 03:39:06.513][trace][18432][129] src/app/srs_app_agora.cpp:316: SrsAgoraGateWay::on_play: conn=56733680, stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67
+[2020-11-11 03:39:06.517][trace][18432][131] src/protocol/srs_rtmp_stack.cpp:1508: set ack window size to 2500000
+[2020-11-11 03:39:06.519][trace][18432][131] src/protocol/srs_rtmp_stack.cpp:1547: ignored. set buffer length to 300
+[2020-11-11 03:39:06.520][trace][18432][131] src/protocol/srs_rtmp_stack.cpp:3224: ignore AMF0/AMF3 command message.
+[2020-11-11 03:39:06.520][trace][18432][131] src/protocol/srs_rtmp_stack.cpp:3224: ignore AMF0/AMF3 command message.
+[2020-11-11 03:39:06.523][trace][18432][129] src/app/srs_app_rtmp_conn.cpp:1302: set TCP_NODELAY 0=>1
+[2020-11-11 03:39:06.523][trace][18432][129] src/app/srs_app_rtmp_conn.cpp:728: start play smi=0.00, mw_sleep=30, mw_enabled=1, realtime=1, tcp_nodelay=1
+[2020-11-11 03:39:06.523][trace][18432][132] src/protocol/srs_rtmp_stack.cpp:1547: ignored. set buffer length to 3600000
+[2020-11-11 03:39:06.564][trace][18432][131] src/app/srs_app_rtmp_conn.cpp:495: client identified, type=Play, stream_name=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67, duration=-1.00
+[2020-11-11 03:39:06.564][trace][18432][131] src/app/srs_app_rtmp_conn.cpp:561: source url=/live/qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67, ip=183.134.94.123, cache=0, is_edge=0, source_id=104[104]
+[2020-11-11 03:39:06.564][trace][18432][131] src/app/srs_app_source.cpp:701: dispatch cached gop success. count=0, duration=0
+[2020-11-11 03:39:06.564][trace][18432][131] src/app/srs_app_source.cpp:2375: create consumer, queue_size=5.00, jitter=2
+[2020-11-11 03:39:06.564][trace][18432][131] src/app/srs_app_agora.cpp:316: SrsAgoraGateWay::on_play: conn=56383520, stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67
+[2020-11-11 03:39:06.574][trace][18432][131] src/app/srs_app_rtmp_conn.cpp:1302: set TCP_NODELAY 0=>1
+[2020-11-11 03:39:06.574][trace][18432][131] src/app/srs_app_rtmp_conn.cpp:728: start play smi=0.00, mw_sleep=30, mw_enabled=1, realtime=1, tcp_nodelay=1
+[2020-11-11 03:39:06.574][trace][18432][133] src/protocol/srs_rtmp_stack.cpp:1547: ignored. set buffer length to 3600000
+[2020-11-11 03:39:06.653][trace][18432][129] src/app/srs_app_agora.cpp:324: SrsAgoraGateWay::on_unplay: conn=56733680, stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67
+[2020-11-11 03:39:06.653][warn][18432][129][4] src/app/srs_app_conn.cpp:103: client disconnect peer. ret=1004
+[2020-11-11 03:39:08.862][trace][18432][0] src/app/srs_app_agora.cpp:877: update sps/pps. (stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67)
+[2020-11-11 03:39:08.867][trace][18432][104] src/app/srs_app_source.cpp:1974: 35B video sh,  codec(7, profile=Baseline, level=3.1, 640x480, 0kbps, 0fps, 0s)
+[2020-11-11 03:39:10.289][trace][18432][0] src/app/srs_app_agora.cpp:877: update sps/pps. (stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67)
+[2020-11-11 03:39:10.297][trace][18432][104] src/app/srs_app_source.cpp:1974: 35B video sh,  codec(7, profile=Baseline, level=3.1, 640x480, 0kbps, 0fps, 0s)
+[2020-11-11 03:39:10.383][trace][18432][123] src/app/srs_app_agora.cpp:324: SrsAgoraGateWay::on_unplay: conn=56401264, stream=zqxwAi1YVnQo6NSYjwEsGJKBOniKFPgm
+[2020-11-11 03:39:10.383][warn][18432][123][104] src/app/srs_app_conn.cpp:103: client disconnect peer. ret=1004
+[2020-11-11 03:39:10.388][trace][18432][131] src/app/srs_app_rtmp_conn.cpp:807: -> PLA time=4000, msgs=2, okbps=499,0,0, ikbps=7,0,0, mw=30
+[2020-11-11 03:39:11.194][trace][18432][0] src/app/srs_app_agora.cpp:877: update sps/pps. (stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67)
+[2020-11-11 03:39:11.195][trace][18432][104] src/app/srs_app_source.cpp:1974: 36B video sh,  codec(7, profile=Baseline, level=3.1, 640x480, 0kbps, 0fps, 0s)
+[2020-11-11 03:39:11.837][trace][18432][0] src/app/srs_app_agora.cpp:877: update sps/pps. (stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67)
+[2020-11-11 03:39:11.839][trace][18432][104] src/app/srs_app_source.cpp:1974: 36B video sh,  codec(7, profile=Baseline, level=3.1, 640x480, 0kbps, 0fps, 0s)
+[2020-11-11 03:39:12.630][trace][18432][0] src/app/srs_app_agora.cpp:877: update sps/pps. (stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67)
+[2020-11-11 03:39:12.636][trace][18432][104] src/app/srs_app_source.cpp:1974: 36B video sh,  codec(7, profile=Baseline, level=3.1, 640x480, 0kbps, 0fps, 0s)
+[2020-11-11 03:39:13.494][trace][18432][0] src/app/srs_app_agora.cpp:877: update sps/pps. (stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67)
+[2020-11-11 03:39:13.502][trace][18432][104] src/app/srs_app_source.cpp:1974: 36B video sh,  codec(7, profile=Baseline, level=3.1, 640x480, 0kbps, 0fps, 0s)
+[2020-11-11 03:39:14.456][trace][18432][0] src/app/srs_app_agora.cpp:877: update sps/pps. (stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67)
+[2020-11-11 03:39:14.460][trace][18432][104] src/app/srs_app_source.cpp:1974: 36B video sh,  codec(7, profile=Baseline, level=3.1, 640x480, 0kbps, 0fps, 0s)
+[2020-11-11 03:39:15.516][trace][18432][0] src/app/srs_app_agora.cpp:877: update sps/pps. (stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67)
+[2020-11-11 03:39:15.520][trace][18432][104] src/app/srs_app_source.cpp:1974: 36B video sh,  codec(7, profile=Baseline, level=3.1, 640x480, 0kbps, 0fps, 0s)
+[2020-11-11 03:39:16.446][trace][18432][0] src/app/srs_app_agora.cpp:877: update sps/pps. (stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67)
+[2020-11-11 03:39:16.454][trace][18432][104] src/app/srs_app_source.cpp:1974: 36B video sh,  codec(7, profile=Baseline, level=3.1, 640x480, 0kbps, 0fps, 0s)
+[2020-11-11 03:39:20.734][trace][18432][131] src/app/srs_app_rtmp_conn.cpp:807: -> PLA time=14000, msgs=1, okbps=614,0,0, ikbps=2,0,0, mw=30
+[2020-11-11 03:39:20.908][trace][18432][131] src/app/srs_app_agora.cpp:324: SrsAgoraGateWay::on_unplay: conn=56383520, stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67
+[2020-11-11 03:39:20.908][warn][18432][131][4] src/app/srs_app_conn.cpp:103: client disconnect peer. ret=1004
+[2020-11-11 03:39:20.909][trace][18432][101] src/app/srs_app_server.cpp:179: accept client, type: 0
+[2020-11-11 03:39:20.909][trace][18432][135] src/app/srs_app_rtmp_conn.cpp:138: RTMP client ip=183.134.94.123
+[2020-11-11 03:39:20.952][trace][18432][135] src/protocol/srs_rtmp_handshake.cpp:1131: simple handshake success.
+[2020-11-11 03:39:20.958][trace][18432][135] src/app/srs_app_rtmp_conn.cpp:186: connect app, tcUrl=rtmp://120.131.14.112:7242/live, pageUrl=, swfUrl=, schema=rtmp, vhost=__defaultVhost__, port=7242, app=live, args=null
+[2020-11-11 03:39:20.958][trace][18432][135] src/protocol/srs_rtmp_stack.cpp:1579: out chunk size to 256
+[2020-11-11 03:39:20.962][trace][18432][101] src/app/srs_app_server.cpp:179: accept client, type: 0
+[2020-11-11 03:39:20.962][trace][18432][137] src/app/srs_app_rtmp_conn.cpp:138: RTMP client ip=183.134.94.123
+[2020-11-11 03:39:21.011][trace][18432][137] src/protocol/srs_rtmp_handshake.cpp:1131: simple handshake success.
+[2020-11-11 03:39:21.012][trace][18432][137] src/app/srs_app_rtmp_conn.cpp:186: connect app, tcUrl=rtmp://120.131.14.112:7242/live, pageUrl=, swfUrl=, schema=rtmp, vhost=__defaultVhost__, port=7242, app=live, args=null
+[2020-11-11 03:39:21.012][trace][18432][137] src/protocol/srs_rtmp_stack.cpp:1579: out chunk size to 256
+[2020-11-11 03:39:21.096][trace][18432][135] src/protocol/srs_rtmp_stack.cpp:1508: set ack window size to 2500000
+[2020-11-11 03:39:21.096][trace][18432][135] src/protocol/srs_rtmp_stack.cpp:1547: ignored. set buffer length to 300
+[2020-11-11 03:39:21.098][trace][18432][135] src/protocol/srs_rtmp_stack.cpp:3224: ignore AMF0/AMF3 command message.
+[2020-11-11 03:39:21.099][trace][18432][135] src/protocol/srs_rtmp_stack.cpp:3224: ignore AMF0/AMF3 command message.
+[2020-11-11 03:39:21.131][trace][18432][137] src/protocol/srs_rtmp_stack.cpp:1508: set ack window size to 2500000
+[2020-11-11 03:39:21.132][trace][18432][137] src/protocol/srs_rtmp_stack.cpp:1547: ignored. set buffer length to 300
+[2020-11-11 03:39:21.135][trace][18432][137] src/protocol/srs_rtmp_stack.cpp:3224: ignore AMF0/AMF3 command message.
+[2020-11-11 03:39:21.135][trace][18432][137] src/protocol/srs_rtmp_stack.cpp:3224: ignore AMF0/AMF3 command message.
+[2020-11-11 03:39:21.138][trace][18432][135] src/app/srs_app_rtmp_conn.cpp:495: client identified, type=Play, stream_name=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67, duration=-1.00
+[2020-11-11 03:39:21.138][trace][18432][135] src/app/srs_app_rtmp_conn.cpp:561: source url=/live/qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67, ip=183.134.94.123, cache=0, is_edge=0, source_id=104[104]
+[2020-11-11 03:39:21.138][trace][18432][135] src/app/srs_app_source.cpp:701: dispatch cached gop success. count=0, duration=0
+[2020-11-11 03:39:21.138][trace][18432][135] src/app/srs_app_source.cpp:2375: create consumer, queue_size=5.00, jitter=2
+[2020-11-11 03:39:21.139][trace][18432][135] src/app/srs_app_agora.cpp:316: SrsAgoraGateWay::on_play: conn=56385680, stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67
+[2020-11-11 03:39:21.148][trace][18432][135] src/app/srs_app_rtmp_conn.cpp:1302: set TCP_NODELAY 0=>1
+[2020-11-11 03:39:21.148][trace][18432][135] src/app/srs_app_rtmp_conn.cpp:728: start play smi=0.00, mw_sleep=30, mw_enabled=1, realtime=1, tcp_nodelay=1
+[2020-11-11 03:39:21.148][trace][18432][138] src/protocol/srs_rtmp_stack.cpp:1547: ignored. set buffer length to 3600000
+[2020-11-11 03:39:21.217][trace][18432][137] src/app/srs_app_rtmp_conn.cpp:495: client identified, type=Play, stream_name=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67, duration=-1.00
+[2020-11-11 03:39:21.217][trace][18432][137] src/app/srs_app_rtmp_conn.cpp:561: source url=/live/qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67, ip=183.134.94.123, cache=0, is_edge=0, source_id=104[104]
+[2020-11-11 03:39:21.217][trace][18432][137] src/app/srs_app_source.cpp:701: dispatch cached gop success. count=0, duration=0
+[2020-11-11 03:39:21.217][trace][18432][137] src/app/srs_app_source.cpp:2375: create consumer, queue_size=5.00, jitter=2
+[2020-11-11 03:39:21.217][trace][18432][137] src/app/srs_app_agora.cpp:316: SrsAgoraGateWay::on_play: conn=56718880, stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67
+[2020-11-11 03:39:21.227][trace][18432][137] src/app/srs_app_rtmp_conn.cpp:1302: set TCP_NODELAY 0=>1
+[2020-11-11 03:39:21.227][trace][18432][137] src/app/srs_app_rtmp_conn.cpp:728: start play smi=0.00, mw_sleep=30, mw_enabled=1, realtime=1, tcp_nodelay=1
+[2020-11-11 03:39:21.227][trace][18432][139] src/protocol/srs_rtmp_stack.cpp:1547: ignored. set buffer length to 3600000
+[2020-11-11 03:39:21.263][trace][18432][135] src/app/srs_app_agora.cpp:324: SrsAgoraGateWay::on_unplay: conn=56385680, stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67
+[2020-11-11 03:39:21.263][warn][18432][135][4] src/app/srs_app_conn.cpp:103: client disconnect peer. ret=1004
+[2020-11-11 03:39:21.436][trace][18432][0] src/app/srs_app_agora.cpp:877: update sps/pps. (stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67)
+[2020-11-11 03:39:21.446][trace][18432][104] src/app/srs_app_source.cpp:1974: 36B video sh,  codec(7, profile=Baseline, level=3.1, 640x480, 0kbps, 0fps, 0s)
+[2020-11-11 03:39:21.907][trace][18432][114] src/app/srs_app_rtmp_conn.cpp:1000: <- CPB time=20000, okbps=0,0,0, ikbps=622,617,0, mr=0/350, p1stpt=20000, pnt=20000
+[2020-11-11 03:39:22.588][trace][18432][0] src/app/srs_app_agora.cpp:877: update sps/pps. (stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67)
+[2020-11-11 03:39:22.596][trace][18432][104] src/app/srs_app_source.cpp:1974: 37B video sh,  codec(7, profile=Baseline, level=3.1, 640x480, 0kbps, 0fps, 0s)
+[2020-11-11 03:39:23.562][trace][18432][0] src/app/srs_app_agora.cpp:877: update sps/pps. (stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67)
+[2020-11-11 03:39:23.572][trace][18432][104] src/app/srs_app_source.cpp:1974: 37B video sh,  codec(7, profile=Baseline, level=3.1, 640x480, 0kbps, 0fps, 0s)
+[2020-11-11 03:39:24.536][trace][18432][0] src/app/srs_app_agora.cpp:877: update sps/pps. (stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67)
+[2020-11-11 03:39:24.539][trace][18432][104] src/app/srs_app_source.cpp:1974: 37B video sh,  codec(7, profile=Baseline, level=3.1, 640x480, 0kbps, 0fps, 0s)
+[2020-11-11 03:39:27.306][trace][18432][0] src/app/srs_app_agora.cpp:877: update sps/pps. (stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67)
+[2020-11-11 03:39:27.308][trace][18432][104] src/app/srs_app_source.cpp:1974: 37B video sh,  codec(7, profile=Baseline, level=3.1, 640x480, 0kbps, 0fps, 0s)
+[2020-11-11 03:39:27.378][trace][18432][137] src/app/srs_app_agora.cpp:324: SrsAgoraGateWay::on_unplay: conn=56718880, stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67
+[2020-11-11 03:39:27.378][warn][18432][137][4] src/app/srs_app_conn.cpp:103: client disconnect peer. ret=1004
+[2020-11-11 03:39:27.432][trace][18432][101] src/app/srs_app_server.cpp:179: accept client, type: 0
+[2020-11-11 03:39:27.432][trace][18432][141] src/app/srs_app_rtmp_conn.cpp:138: RTMP client ip=183.134.94.123
+[2020-11-11 03:39:27.457][trace][18432][0] src/app/srs_app_agora.cpp:877: update sps/pps. (stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67)
+[2020-11-11 03:39:27.459][trace][18432][104] src/app/srs_app_source.cpp:1974: 37B video sh,  codec(7, profile=Baseline, level=3.1, 640x480, 0kbps, 0fps, 0s)
+[2020-11-11 03:39:27.472][trace][18432][141] src/protocol/srs_rtmp_handshake.cpp:1131: simple handshake success.
+[2020-11-11 03:39:27.472][trace][18432][141] src/app/srs_app_rtmp_conn.cpp:186: connect app, tcUrl=rtmp://120.131.14.112:7242/live, pageUrl=, swfUrl=, schema=rtmp, vhost=__defaultVhost__, port=7242, app=live, args=null
+[2020-11-11 03:39:27.473][trace][18432][141] src/protocol/srs_rtmp_stack.cpp:1579: out chunk size to 256
+[2020-11-11 03:39:27.493][trace][18432][101] src/app/srs_app_server.cpp:179: accept client, type: 0
+[2020-11-11 03:39:27.493][trace][18432][143] src/app/srs_app_rtmp_conn.cpp:138: RTMP client ip=183.134.94.123
+[2020-11-11 03:39:27.576][trace][18432][143] src/protocol/srs_rtmp_handshake.cpp:1131: simple handshake success.
+[2020-11-11 03:39:27.577][trace][18432][143] src/app/srs_app_rtmp_conn.cpp:186: connect app, tcUrl=rtmp://120.131.14.112:7242/live, pageUrl=, swfUrl=, schema=rtmp, vhost=__defaultVhost__, port=7242, app=live, args=null
+[2020-11-11 03:39:27.577][trace][18432][143] src/protocol/srs_rtmp_stack.cpp:1579: out chunk size to 256
+[2020-11-11 03:39:27.607][trace][18432][141] src/protocol/srs_rtmp_stack.cpp:1508: set ack window size to 2500000
+[2020-11-11 03:39:27.608][trace][18432][141] src/protocol/srs_rtmp_stack.cpp:1547: ignored. set buffer length to 300
+[2020-11-11 03:39:27.608][trace][18432][141] src/protocol/srs_rtmp_stack.cpp:3224: ignore AMF0/AMF3 command message.
+[2020-11-11 03:39:27.608][trace][18432][141] src/protocol/srs_rtmp_stack.cpp:3224: ignore AMF0/AMF3 command message.
+[2020-11-11 03:39:27.650][trace][18432][141] src/app/srs_app_rtmp_conn.cpp:495: client identified, type=Play, stream_name=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67, duration=-1.00
+[2020-11-11 03:39:27.651][trace][18432][141] src/app/srs_app_rtmp_conn.cpp:561: source url=/live/qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67, ip=183.134.94.123, cache=0, is_edge=0, source_id=104[104]
+[2020-11-11 03:39:27.651][trace][18432][141] src/app/srs_app_source.cpp:701: dispatch cached gop success. count=0, duration=0
+[2020-11-11 03:39:27.651][trace][18432][141] src/app/srs_app_source.cpp:2375: create consumer, queue_size=5.00, jitter=2
+[2020-11-11 03:39:27.651][trace][18432][141] src/app/srs_app_agora.cpp:316: SrsAgoraGateWay::on_play: conn=56399712, stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67
+[2020-11-11 03:39:27.661][trace][18432][141] src/app/srs_app_rtmp_conn.cpp:1302: set TCP_NODELAY 0=>1
+[2020-11-11 03:39:27.661][trace][18432][141] src/app/srs_app_rtmp_conn.cpp:728: start play smi=0.00, mw_sleep=30, mw_enabled=1, realtime=1, tcp_nodelay=1
+[2020-11-11 03:39:27.661][trace][18432][144] src/protocol/srs_rtmp_stack.cpp:1547: ignored. set buffer length to 3600000
+[2020-11-11 03:39:27.702][trace][18432][143] src/protocol/srs_rtmp_stack.cpp:1508: set ack window size to 2500000
+[2020-11-11 03:39:27.703][trace][18432][143] src/protocol/srs_rtmp_stack.cpp:1547: ignored. set buffer length to 300
+[2020-11-11 03:39:27.705][trace][18432][143] src/protocol/srs_rtmp_stack.cpp:3224: ignore AMF0/AMF3 command message.
+[2020-11-11 03:39:27.706][trace][18432][143] src/protocol/srs_rtmp_stack.cpp:3224: ignore AMF0/AMF3 command message.
+[2020-11-11 03:39:27.773][trace][18432][143] src/app/srs_app_rtmp_conn.cpp:495: client identified, type=Play, stream_name=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67, duration=-1.00
+[2020-11-11 03:39:27.773][trace][18432][143] src/app/srs_app_rtmp_conn.cpp:561: source url=/live/qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67, ip=183.134.94.123, cache=0, is_edge=0, source_id=104[104]
+[2020-11-11 03:39:27.773][trace][18432][143] src/app/srs_app_source.cpp:701: dispatch cached gop success. count=0, duration=0
+[2020-11-11 03:39:27.773][trace][18432][143] src/app/srs_app_source.cpp:2375: create consumer, queue_size=5.00, jitter=2
+[2020-11-11 03:39:27.773][trace][18432][143] src/app/srs_app_agora.cpp:316: SrsAgoraGateWay::on_play: conn=56569792, stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67
+[2020-11-11 03:39:27.781][trace][18432][141] src/app/srs_app_agora.cpp:324: SrsAgoraGateWay::on_unplay: conn=56399712, stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67
+[2020-11-11 03:39:27.781][warn][18432][141][4] src/app/srs_app_conn.cpp:103: client disconnect peer. ret=1004
+[2020-11-11 03:39:27.783][trace][18432][143] src/app/srs_app_rtmp_conn.cpp:1302: set TCP_NODELAY 0=>1
+[2020-11-11 03:39:27.783][trace][18432][143] src/app/srs_app_rtmp_conn.cpp:728: start play smi=0.00, mw_sleep=30, mw_enabled=1, realtime=1, tcp_nodelay=1
+[2020-11-11 03:39:27.783][trace][18432][145] src/protocol/srs_rtmp_stack.cpp:1547: ignored. set buffer length to 3600000
+[2020-11-11 03:39:28.456][trace][18432][0] src/app/srs_app_agora.cpp:877: update sps/pps. (stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67)
+[2020-11-11 03:39:28.465][trace][18432][104] src/app/srs_app_source.cpp:1974: 37B video sh,  codec(7, profile=Baseline, level=3.1, 640x480, 0kbps, 0fps, 0s)
+[2020-11-11 03:39:29.487][trace][18432][0] src/app/srs_app_agora.cpp:877: update sps/pps. (stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67)
+[2020-11-11 03:39:29.491][trace][18432][104] src/app/srs_app_source.cpp:1974: 37B video sh,  codec(7, profile=Baseline, level=3.1, 640x480, 0kbps, 0fps, 0s)
+[2020-11-11 03:39:30.227][trace][18432][143] src/app/srs_app_rtmp_conn.cpp:807: -> PLA time=3000, msgs=1, okbps=220,0,0, ikbps=9,0,0, mw=30
+[2020-11-11 03:39:31.476][trace][18432][0] src/app/srs_app_agora.cpp:877: update sps/pps. (stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67)
+[2020-11-11 03:39:31.485][trace][18432][104] src/app/srs_app_source.cpp:1974: 37B video sh,  codec(7, profile=Baseline, level=3.1, 640x480, 0kbps, 0fps, 0s)
+[2020-11-11 03:39:34.334][trace][18432][143] src/app/srs_app_agora.cpp:324: SrsAgoraGateWay::on_unplay: conn=56569792, stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67
+[2020-11-11 03:39:34.334][warn][18432][143][4] src/app/srs_app_conn.cpp:103: client disconnect peer. ret=1004
+[2020-11-11 03:39:34.427][trace][18432][101] src/app/srs_app_server.cpp:179: accept client, type: 0
+[2020-11-11 03:39:34.427][trace][18432][147] src/app/srs_app_rtmp_conn.cpp:138: RTMP client ip=183.134.94.123
+[2020-11-11 03:39:34.436][trace][18432][0] src/app/srs_app_agora.cpp:877: update sps/pps. (stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67)
+[2020-11-11 03:39:34.441][trace][18432][104] src/app/srs_app_source.cpp:1974: 37B video sh,  codec(7, profile=Baseline, level=3.1, 640x480, 0kbps, 0fps, 0s)
+[2020-11-11 03:39:34.471][trace][18432][147] src/protocol/srs_rtmp_handshake.cpp:1131: simple handshake success.
+[2020-11-11 03:39:34.472][trace][18432][147] src/app/srs_app_rtmp_conn.cpp:186: connect app, tcUrl=rtmp://120.131.14.112:7242/live, pageUrl=, swfUrl=, schema=rtmp, vhost=__defaultVhost__, port=7242, app=live, args=null
+[2020-11-11 03:39:34.472][trace][18432][147] src/protocol/srs_rtmp_stack.cpp:1579: out chunk size to 256
+[2020-11-11 03:39:34.497][trace][18432][101] src/app/srs_app_server.cpp:179: accept client, type: 0
+[2020-11-11 03:39:34.507][trace][18432][149] src/app/srs_app_rtmp_conn.cpp:138: RTMP client ip=183.134.94.123
+[2020-11-11 03:39:34.551][trace][18432][149] src/protocol/srs_rtmp_handshake.cpp:1131: simple handshake success.
+[2020-11-11 03:39:34.551][trace][18432][149] src/app/srs_app_rtmp_conn.cpp:186: connect app, tcUrl=rtmp://120.131.14.112:7242/live, pageUrl=, swfUrl=, schema=rtmp, vhost=__defaultVhost__, port=7242, app=live, args=null
+[2020-11-11 03:39:34.551][trace][18432][149] src/protocol/srs_rtmp_stack.cpp:1579: out chunk size to 256
+[2020-11-11 03:39:34.611][trace][18432][147] src/protocol/srs_rtmp_stack.cpp:1508: set ack window size to 2500000
+[2020-11-11 03:39:34.612][trace][18432][147] src/protocol/srs_rtmp_stack.cpp:1547: ignored. set buffer length to 300
+[2020-11-11 03:39:34.613][trace][18432][147] src/protocol/srs_rtmp_stack.cpp:3224: ignore AMF0/AMF3 command message.
+[2020-11-11 03:39:34.615][trace][18432][147] src/protocol/srs_rtmp_stack.cpp:3224: ignore AMF0/AMF3 command message.
+[2020-11-11 03:39:34.654][trace][18432][147] src/app/srs_app_rtmp_conn.cpp:495: client identified, type=Play, stream_name=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67, duration=-1.00
+[2020-11-11 03:39:34.655][trace][18432][147] src/app/srs_app_rtmp_conn.cpp:561: source url=/live/qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67, ip=183.134.94.123, cache=0, is_edge=0, source_id=104[104]
+[2020-11-11 03:39:34.655][trace][18432][147] src/app/srs_app_source.cpp:701: dispatch cached gop success. count=0, duration=0
+[2020-11-11 03:39:34.655][trace][18432][147] src/app/srs_app_source.cpp:2375: create consumer, queue_size=5.00, jitter=2
+[2020-11-11 03:39:34.655][trace][18432][147] src/app/srs_app_agora.cpp:316: SrsAgoraGateWay::on_play: conn=56570816, stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67
+[2020-11-11 03:39:34.664][trace][18432][147] src/app/srs_app_rtmp_conn.cpp:1302: set TCP_NODELAY 0=>1
+[2020-11-11 03:39:34.665][trace][18432][147] src/app/srs_app_rtmp_conn.cpp:728: start play smi=0.00, mw_sleep=30, mw_enabled=1, realtime=1, tcp_nodelay=1
+[2020-11-11 03:39:34.665][trace][18432][150] src/protocol/srs_rtmp_stack.cpp:1547: ignored. set buffer length to 3600000
+[2020-11-11 03:39:34.677][trace][18432][149] src/protocol/srs_rtmp_stack.cpp:1508: set ack window size to 2500000
+[2020-11-11 03:39:34.677][trace][18432][149] src/protocol/srs_rtmp_stack.cpp:1547: ignored. set buffer length to 300
+[2020-11-11 03:39:34.680][trace][18432][149] src/protocol/srs_rtmp_stack.cpp:3224: ignore AMF0/AMF3 command message.
+[2020-11-11 03:39:34.681][trace][18432][149] src/protocol/srs_rtmp_stack.cpp:3224: ignore AMF0/AMF3 command message.
+[2020-11-11 03:39:34.731][trace][18432][149] src/app/srs_app_rtmp_conn.cpp:495: client identified, type=Play, stream_name=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67, duration=-1.00
+[2020-11-11 03:39:34.731][trace][18432][149] src/app/srs_app_rtmp_conn.cpp:561: source url=/live/qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67, ip=183.134.94.123, cache=0, is_edge=0, source_id=104[104]
+[2020-11-11 03:39:34.731][trace][18432][149] src/app/srs_app_source.cpp:701: dispatch cached gop success. count=0, duration=0
+[2020-11-11 03:39:34.731][trace][18432][149] src/app/srs_app_source.cpp:2375: create consumer, queue_size=5.00, jitter=2
+[2020-11-11 03:39:34.731][trace][18432][149] src/app/srs_app_agora.cpp:316: SrsAgoraGateWay::on_play: conn=56732480, stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67
+[2020-11-11 03:39:34.741][trace][18432][149] src/app/srs_app_rtmp_conn.cpp:1302: set TCP_NODELAY 0=>1
+[2020-11-11 03:39:34.741][trace][18432][149] src/app/srs_app_rtmp_conn.cpp:728: start play smi=0.00, mw_sleep=30, mw_enabled=1, realtime=1, tcp_nodelay=1
+[2020-11-11 03:39:34.741][trace][18432][151] src/protocol/srs_rtmp_stack.cpp:1547: ignored. set buffer length to 3600000
+[2020-11-11 03:39:34.753][trace][18432][147] src/app/srs_app_agora.cpp:324: SrsAgoraGateWay::on_unplay: conn=56570816, stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67
+[2020-11-11 03:39:34.753][warn][18432][147][4] src/app/srs_app_conn.cpp:103: client disconnect peer. ret=1004
+[2020-11-11 03:39:35.579][trace][18432][0] src/app/srs_app_agora.cpp:877: update sps/pps. (stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67)
+[2020-11-11 03:39:35.579][trace][18432][104] src/app/srs_app_source.cpp:1974: 37B video sh,  codec(7, profile=Baseline, level=3.1, 640x480, 0kbps, 0fps, 0s)
+[2020-11-11 03:39:36.553][trace][18432][0] src/app/srs_app_agora.cpp:877: update sps/pps. (stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67)
+[2020-11-11 03:39:36.557][trace][18432][104] src/app/srs_app_source.cpp:1974: 37B video sh,  codec(7, profile=Baseline, level=3.1, 640x480, 0kbps, 0fps, 0s)
+[2020-11-11 03:39:37.547][trace][18432][0] src/app/srs_app_agora.cpp:877: update sps/pps. (stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67)
+[2020-11-11 03:39:37.553][trace][18432][104] src/app/srs_app_source.cpp:1974: 38B video sh,  codec(7, profile=Baseline, level=3.1, 640x480, 0kbps, 0fps, 0s)
+[2020-11-11 03:39:38.931][trace][18432][149] src/app/srs_app_agora.cpp:324: SrsAgoraGateWay::on_unplay: conn=56732480, stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67
+[2020-11-11 03:39:38.931][warn][18432][149][4] src/app/srs_app_conn.cpp:103: client disconnect peer. ret=1004
+[2020-11-11 03:39:38.988][trace][18432][101] src/app/srs_app_server.cpp:179: accept client, type: 0
+[2020-11-11 03:39:38.988][trace][18432][153] src/app/srs_app_rtmp_conn.cpp:138: RTMP client ip=183.134.94.123
+[2020-11-11 03:39:39.041][trace][18432][153] src/protocol/srs_rtmp_handshake.cpp:1131: simple handshake success.
+[2020-11-11 03:39:39.042][trace][18432][153] src/app/srs_app_rtmp_conn.cpp:186: connect app, tcUrl=rtmp://120.131.14.112:7242/live, pageUrl=, swfUrl=, schema=rtmp, vhost=__defaultVhost__, port=7242, app=live, args=null
+[2020-11-11 03:39:39.042][trace][18432][153] src/protocol/srs_rtmp_stack.cpp:1579: out chunk size to 256
+[2020-11-11 03:39:39.082][trace][18432][101] src/app/srs_app_server.cpp:179: accept client, type: 0
+[2020-11-11 03:39:39.082][trace][18432][155] src/app/srs_app_rtmp_conn.cpp:138: RTMP client ip=183.134.94.123
+[2020-11-11 03:39:39.132][trace][18432][155] src/protocol/srs_rtmp_handshake.cpp:1131: simple handshake success.
+[2020-11-11 03:39:39.134][trace][18432][155] src/app/srs_app_rtmp_conn.cpp:186: connect app, tcUrl=rtmp://120.131.14.112:7242/live, pageUrl=, swfUrl=, schema=rtmp, vhost=__defaultVhost__, port=7242, app=live, args=null
+[2020-11-11 03:39:39.134][trace][18432][155] src/protocol/srs_rtmp_stack.cpp:1579: out chunk size to 256
+[2020-11-11 03:39:39.176][trace][18432][153] src/protocol/srs_rtmp_stack.cpp:1508: set ack window size to 2500000
+[2020-11-11 03:39:39.179][trace][18432][153] src/protocol/srs_rtmp_stack.cpp:1547: ignored. set buffer length to 300
+[2020-11-11 03:39:39.179][trace][18432][153] src/protocol/srs_rtmp_stack.cpp:3224: ignore AMF0/AMF3 command message.
+[2020-11-11 03:39:39.179][trace][18432][153] src/protocol/srs_rtmp_stack.cpp:3224: ignore AMF0/AMF3 command message.
+[2020-11-11 03:39:39.242][trace][18432][153] src/app/srs_app_rtmp_conn.cpp:495: client identified, type=Play, stream_name=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67, duration=-1.00
+[2020-11-11 03:39:39.242][trace][18432][153] src/app/srs_app_rtmp_conn.cpp:561: source url=/live/qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67, ip=183.134.94.123, cache=0, is_edge=0, source_id=104[104]
+[2020-11-11 03:39:39.242][trace][18432][153] src/app/srs_app_source.cpp:701: dispatch cached gop success. count=0, duration=0
+[2020-11-11 03:39:39.242][trace][18432][153] src/app/srs_app_source.cpp:2375: create consumer, queue_size=5.00, jitter=2
+[2020-11-11 03:39:39.242][trace][18432][153] src/app/srs_app_agora.cpp:316: SrsAgoraGateWay::on_play: conn=56569024, stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67
+[2020-11-11 03:39:39.252][trace][18432][153] src/app/srs_app_rtmp_conn.cpp:1302: set TCP_NODELAY 0=>1
+[2020-11-11 03:39:39.252][trace][18432][153] src/app/srs_app_rtmp_conn.cpp:728: start play smi=0.00, mw_sleep=30, mw_enabled=1, realtime=1, tcp_nodelay=1
+[2020-11-11 03:39:39.252][trace][18432][156] src/protocol/srs_rtmp_stack.cpp:1547: ignored. set buffer length to 3600000
+[2020-11-11 03:39:39.278][trace][18432][155] src/protocol/srs_rtmp_stack.cpp:1508: set ack window size to 2500000
+[2020-11-11 03:39:39.278][trace][18432][155] src/protocol/srs_rtmp_stack.cpp:1547: ignored. set buffer length to 300
+[2020-11-11 03:39:39.279][trace][18432][155] src/protocol/srs_rtmp_stack.cpp:3224: ignore AMF0/AMF3 command message.
+[2020-11-11 03:39:39.280][trace][18432][155] src/protocol/srs_rtmp_stack.cpp:3224: ignore AMF0/AMF3 command message.
+[2020-11-11 03:39:39.326][trace][18432][155] src/app/srs_app_rtmp_conn.cpp:495: client identified, type=Play, stream_name=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67, duration=-1.00
+[2020-11-11 03:39:39.326][trace][18432][155] src/app/srs_app_rtmp_conn.cpp:561: source url=/live/qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67, ip=183.134.94.123, cache=0, is_edge=0, source_id=104[104]
+[2020-11-11 03:39:39.326][trace][18432][155] src/app/srs_app_source.cpp:701: dispatch cached gop success. count=0, duration=0
+[2020-11-11 03:39:39.326][trace][18432][155] src/app/srs_app_source.cpp:2375: create consumer, queue_size=5.00, jitter=2
+[2020-11-11 03:39:39.326][trace][18432][155] src/app/srs_app_agora.cpp:316: SrsAgoraGateWay::on_play: conn=56570592, stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67
+[2020-11-11 03:39:39.336][trace][18432][155] src/app/srs_app_rtmp_conn.cpp:1302: set TCP_NODELAY 0=>1
+[2020-11-11 03:39:39.336][trace][18432][155] src/app/srs_app_rtmp_conn.cpp:728: start play smi=0.00, mw_sleep=30, mw_enabled=1, realtime=1, tcp_nodelay=1
+[2020-11-11 03:39:39.336][trace][18432][157] src/protocol/srs_rtmp_stack.cpp:1547: ignored. set buffer length to 3600000
+[2020-11-11 03:39:39.363][trace][18432][153] src/app/srs_app_agora.cpp:324: SrsAgoraGateWay::on_unplay: conn=56569024, stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67
+[2020-11-11 03:39:39.363][warn][18432][153][4] src/app/srs_app_conn.cpp:103: client disconnect peer. ret=1004
+[2020-11-11 03:39:39.508][trace][18432][0] src/app/srs_app_agora.cpp:877: update sps/pps. (stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67)
+[2020-11-11 03:39:39.514][trace][18432][104] src/app/srs_app_source.cpp:1974: 36B video sh,  codec(7, profile=Baseline, level=3.1, 640x480, 0kbps, 0fps, 0s)
+[2020-11-11 03:39:40.526][trace][18432][0] src/app/srs_app_agora.cpp:877: update sps/pps. (stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67)
+[2020-11-11 03:39:40.531][trace][18432][104] src/app/srs_app_source.cpp:1974: 36B video sh,  codec(7, profile=Baseline, level=3.1, 640x480, 0kbps, 0fps, 0s)
+[2020-11-11 03:39:41.226][trace][18432][155] src/app/srs_app_rtmp_conn.cpp:807: -> PLA time=2000, msgs=2, okbps=432,0,0, ikbps=9,0,0, mw=30
+[2020-11-11 03:39:41.581][trace][18432][0] src/app/srs_app_agora.cpp:877: update sps/pps. (stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67)
+[2020-11-11 03:39:41.589][trace][18432][104] src/app/srs_app_source.cpp:1974: 36B video sh,  codec(7, profile=Baseline, level=3.1, 640x480, 0kbps, 0fps, 0s)
+[2020-11-11 03:39:41.907][trace][18432][114] src/app/srs_app_rtmp_conn.cpp:1000: <- CPB time=40000, okbps=0,0,0, ikbps=612,617,0, mr=0/350, p1stpt=20000, pnt=20000
+[2020-11-11 03:39:42.516][trace][18432][0] src/app/srs_app_agora.cpp:877: update sps/pps. (stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67)
+[2020-11-11 03:39:42.526][trace][18432][104] src/app/srs_app_source.cpp:1974: 36B video sh,  codec(7, profile=Baseline, level=3.1, 640x480, 0kbps, 0fps, 0s)
+[2020-11-11 03:39:43.506][trace][18432][0] src/app/srs_app_agora.cpp:877: update sps/pps. (stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67)
+[2020-11-11 03:39:43.515][trace][18432][104] src/app/srs_app_source.cpp:1974: 36B video sh,  codec(7, profile=Baseline, level=3.1, 640x480, 0kbps, 0fps, 0s)
+[2020-11-11 03:39:44.496][trace][18432][0] src/app/srs_app_agora.cpp:877: update sps/pps. (stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67)
+[2020-11-11 03:39:44.502][trace][18432][104] src/app/srs_app_source.cpp:1974: 36B video sh,  codec(7, profile=Baseline, level=3.1, 640x480, 0kbps, 0fps, 0s)
+[2020-11-11 03:39:45.526][trace][18432][0] src/app/srs_app_agora.cpp:877: update sps/pps. (stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67)
+[2020-11-11 03:39:45.534][trace][18432][104] src/app/srs_app_source.cpp:1974: 37B video sh,  codec(7, profile=Baseline, level=3.1, 640x480, 0kbps, 0fps, 0s)
+[2020-11-11 03:39:46.551][trace][18432][0] src/app/srs_app_agora.cpp:877: update sps/pps. (stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67)
+[2020-11-11 03:39:46.555][trace][18432][104] src/app/srs_app_source.cpp:1974: 37B video sh,  codec(7, profile=Baseline, level=3.1, 640x480, 0kbps, 0fps, 0s)
+[2020-11-11 03:39:50.116][trace][18432][0] src/app/srs_app_agora.cpp:877: update sps/pps. (stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67)
+[2020-11-11 03:39:50.126][trace][18432][104] src/app/srs_app_source.cpp:1974: 37B video sh,  codec(7, profile=Baseline, level=3.1, 640x480, 0kbps, 0fps, 0s)
+[2020-11-11 03:39:50.620][warn][18432][155][11] src/protocol/srs_rtmp_stack.cpp:498: resize iovs 256 => 512, max_msgs=128
+[2020-11-11 03:39:51.183][warn][18432][155][11] src/protocol/srs_rtmp_stack.cpp:498: resize iovs 512 => 768, max_msgs=128
+[2020-11-11 03:39:51.224][trace][18432][155] src/app/srs_app_rtmp_conn.cpp:807: -> PLA time=12000, msgs=1, okbps=613,0,0, ikbps=2,0,0, mw=30
+[2020-11-11 03:39:51.558][trace][18432][0] src/app/srs_app_agora.cpp:877: update sps/pps. (stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67)
+[2020-11-11 03:39:51.567][trace][18432][104] src/app/srs_app_source.cpp:1974: 37B video sh,  codec(7, profile=Baseline, level=3.1, 640x480, 0kbps, 0fps, 0s)
+[2020-11-11 03:39:52.896][trace][18432][104] src/app/srs_app_agora.cpp:877: update sps/pps. (stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67)
+[2020-11-11 03:39:52.906][trace][18432][104] src/app/srs_app_source.cpp:1974: 37B video sh,  codec(7, profile=Baseline, level=3.1, 640x480, 0kbps, 0fps, 0s)
+[2020-11-11 03:39:53.036][trace][18432][0] src/app/srs_app_agora.cpp:1126: user(2700162739) offline, reason code: 0.
+[2020-11-11 03:39:53.037][trace][18432][104] src/app/srs_app_source.cpp:2303: cleanup when unpublish
+[2020-11-11 03:39:53.037][trace][18432][104] src/app/srs_app_agora.cpp:1072: SrsAgoraGateWay:cycle on_unpublish: stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67.
+[2020-11-11 03:39:53.037][error][18432][155][11] src/app/srs_app_rtmp_conn.cpp:784: source have unpublish(Resource temporarily unavailable)
+[2020-11-11 03:39:53.037][trace][18432][155] src/app/srs_app_agora.cpp:324: SrsAgoraGateWay::on_unplay: conn=56570592, stream=qwKj1wGZpO44Zdg4ZhL4yRg5mgwILj67
+[2020-11-11 03:39:53.037][error][18432][155][4] src/app/srs_app_rtmp_conn.cpp:446: stream service cycle failed. ret=9002(Interrupted system call)
+[2020-11-11 03:40:01.907][trace][18432][114] src/app/srs_app_rtmp_conn.cpp:1000: <- CPB time=60000, okbps=0,0,0, ikbps=605,590,0, mr=0/350, p1stpt=20000, pnt=20000
+[2020-11-11 03:40:21.907][trace][18432][114] src/app/srs_app_rtmp_conn.cpp:1000: <- CPB time=80000, okbps=0,0,0, ikbps=603,592,0, mr=0/350, p1stpt=20000, pnt=20000
+[2020-11-11 03:40:41.907][trace][18432][114] src/app/srs_app_rtmp_conn.cpp:1000: <- CPB time=100000, okbps=0,0,0, ikbps=601,592,0, mr=0/350, p1stpt=20000, pnt=20000
+[2020-11-11 03:41:01.907][trace][18432][114] src/app/srs_app_rtmp_conn.cpp:1000: <- CPB time=120000, okbps=0,0,0, ikbps=599,584,0, mr=0/350, p1stpt=20000, pnt=20000
+[2020-11-11 03:41:21.907][trace][18432][114] src/app/srs_app_rtmp_conn.cpp:1000: <- CPB time=140000, okbps=0,0,0, ikbps=599,584,0, mr=0/350, p1stpt=20000, pnt=20000
+[2020-11-11 03:41:41.907][trace][18432][114] src/app/srs_app_rtmp_conn.cpp:1000: <- CPB time=160000, okbps=0,0,0, ikbps=598,599,0, mr=0/350, p1stpt=20000, pnt=20000
+[2020-11-11 03:42:01.907][trace][18432][114] src/app/srs_app_rtmp_conn.cpp:1000: <- CPB time=180000, okbps=0,0,0, ikbps=597,592,0, mr=0/350, p1stpt=20000, pnt=20000
+[2020-11-11 03:42:21.907][trace][18432][114] src/app/srs_app_rtmp_conn.cpp:1000: <- CPB time=200000, okbps=0,0,0, ikbps=597,592,0, mr=0/350, p1stpt=20000, pnt=20000
+[2020-11-11 03:42:41.907][trace][18432][114] src/app/srs_app_rtmp_conn.cpp:1000: <- CPB time=220000, okbps=0,0,0, ikbps=596,592,0, mr=0/350, p1stpt=20000, pnt=20000
+[2020-11-11 03:43:01.907][trace][18432][114] src/app/srs_app_rtmp_conn.cpp:1000: <- CPB time=240000, okbps=0,0,0, ikbps=596,602,0, mr=0/350, p1stpt=20000, pnt=20000
+[2020-11-11 03:43:21.907][trace][18432][114] src/app/srs_app_rtmp_conn.cpp:1000: <- CPB time=260000, okbps=0,0,0, ikbps=596,602,0, mr=0/350, p1stpt=20000, pnt=20000
+[2020-11-11 03:43:41.907][trace][18432][114] src/app/srs_app_rtmp_conn.cpp:1000: <- CPB time=280001, okbps=0,0,0, ikbps=595,577,595, mr=0/350, p1stpt=20000, pnt=20000
+[2020-11-11 03:43:55.661][error][18432][114][11] src/app/srs_app_source.cpp:2030: agora gateway send video failed. ret=2998(Resource temporarily unavailable)
+[2020-11-11 03:43:55.661][error][18432][114][11] src/app/srs_app_rtmp_conn.cpp:1112: source process video message failed. ret=2998(Resource temporarily unavailable)
+[2020-11-11 03:43:55.661][error][18432][114][11] src/app/srs_app_rtmp_conn.cpp:1081: fmle process publish message failed. ret=2998(Resource temporarily unavailable)
+[2020-11-11 03:43:55.661][trace][18432][114] src/app/srs_app_agora.cpp:308: SrsAgoraGateWay::on_unpublish
+[2020-11-11 03:43:55.661][trace][18432][114] src/app/srs_app_source.cpp:2303: cleanup when unpublish
+[2020-11-11 03:43:55.661][trace][18432][114] src/app/srs_app_rtmp_conn.cpp:470: control message(close) accept, retry stream service.
+[2020-11-11 03:43:55.661][trace][18432][114] src/protocol/srs_rtmp_stack.cpp:2775: identify ignore messages except AMF0/AMF3 command message. type=0x8
+[2020-11-11 03:43:55.661][trace][18432][114] src/protocol/srs_rtmp_stack.cpp:2775: identify ignore messages except AMF0/AMF3 command message. type=0x8
+[2020-11-11 03:43:55.661][trace][18432][114] src/protocol/srs_rtmp_stack.cpp:2775: identify ignore messages except AMF0/AMF3 command message. type=0x8
+[2020-11-11 03:43:55.712][trace][18432][114] src/protocol/srs_rtmp_stack.cpp:2775: identify ignore messages except AMF0/AMF3 command message. type=0x9
+[2020-11-11 03:43:55.712][trace][18432][114] src/protocol/srs_rtmp_stack.cpp:2775: identify ignore messages except AMF0/AMF3 command message. type=0x8
+[2020-11-11 03:43:55.712][trace][18432][114] src/protocol/srs_rtmp_stack.cpp:2775: identify ignore messages except AMF0/AMF3 command message. type=0x8
+[2020-11-11 03:43:55.712][trace][18432][114] src/protocol/srs_rtmp_stack.cpp:2775: identify ignore messages except AMF0/AMF3 command message. type=0x8
+[2020-11-11 03:43:55.774][trace][18432][114] src/protocol/srs_rtmp_stack.cpp:2775: identify ignore messages except AMF0/AMF3 command message. type=0x9
+[2020-11-11 03:43:55.774][trace][18432][114] src/protocol/srs_rtmp_stack.cpp:2775: identify ignore messages except AMF0/AMF3 command message. type=0x8
+[2020-11-11 03:43:55.774][trace][18432][114] src/protocol/srs_rtmp_stack.cpp:2775: identify ignore messages except AMF0/AMF3 command message. type=0x8
+[2020-11-11 03:43:55.855][trace][18432][114] src/protocol/srs_rtmp_stack.cpp:2775: identify ignore messages except AMF0/AMF3 command message. type=0x9
+[2020-11-11 03:43:55.855][trace][18432][114] src/protocol/srs_rtmp_stack.cpp:2775: identify ignore messages except AMF0/AMF3 command message. type=0x8
+[2020-11-11 03:43:55.855][trace][18432][114] src/protocol/srs_rtmp_stack.cpp:2775: identify ignore messages except AMF0/AMF3 command message. type=0x8
+[2020-11-11 03:43:55.882][trace][18432][114] src/protocol/srs_rtmp_stack.cpp:2775: identify ignore messages except AMF0/AMF3 command message. type=0x9
+[2020-11-11 03:43:55.882][trace][18432][114] src/protocol/srs_rtmp_stack.cpp:2775: identify ignore messages except AMF0/AMF3 command message. type=0x8
+[2020-11-11 03:43:55.882][trace][18432][114] src/protocol/srs_rtmp_stack.cpp:2775: identify ignore messages except AMF0/AMF3 command message. type=0x8
+[2020-11-11 03:43:55.882][trace][18432][114] src/protocol/srs_rtmp_stack.cpp:2775: identify ignore messages except AMF0/AMF3 command message. type=0x8
+[2020-11-11 03:43:56.088][trace][18432][114] src/protocol/srs_rtmp_stack.cpp:2775: identify ignore messages except AMF0/AMF3 command message. type=0x9
+[2020-11-11 03:43:56.089][trace][18432][114] src/protocol/srs_rtmp_stack.cpp:2775: identify ignore messages except AMF0/AMF3 command message. type=0x8
+[2020-11-11 03:43:56.089][trace][18432][114] src/protocol/srs_rtmp_stack.cpp:2775: identify ignore messages except AMF0/AMF3 command message. type=0x8
+[2020-11-11 03:43:56.089][trace][18432][114] src/protocol/srs_rtmp_stack.cpp:2775: identify ignore messages except AMF0/AMF3 command message. type=0x8
+[2020-11-11 03:43:58.903][trace][25259][0] src/app/srs_app_config.cpp:1548: srs checking config...
+[2020-11-11 03:43:58.903][trace][25259][0] src/app/srs_app_utility.cpp:1261: detect intranet address: 127.0.0.1, ifname=lo
+[2020-11-11 03:43:58.903][trace][25259][0] src/app/srs_app_utility.cpp:1255: retrieve local ipv4 ip=10.0.0.17, index=0
+[2020-11-11 03:43:58.903][trace][25259][0] src/app/srs_app_utility.cpp:1261: detect intranet address: 10.0.0.17, ifname=eth0
+[2020-11-11 03:43:58.903][trace][25259][0] src/app/srs_app_utility.cpp:1255: retrieve local ipv4 ip=172.17.0.1, index=1
+[2020-11-11 03:43:58.903][trace][25259][0] src/app/srs_app_utility.cpp:1261: detect intranet address: 172.17.0.1, ifname=docker0
+[2020-11-11 03:43:58.903][trace][25259][0] src/app/srs_app_utility.cpp:1255: retrieve local ipv4 ip=169.254.254.254, index=2
+[2020-11-11 03:43:58.903][trace][25259][0] src/app/srs_app_utility.cpp:1264: detect internet address: 169.254.254.254, ifname=netdata
+[2020-11-11 03:43:58.903][trace][25259][0] src/app/srs_app_utility.cpp:1255: retrieve local ipv4 ip=169.254.1.153, index=3
+[2020-11-11 03:43:58.903][trace][25259][0] src/app/srs_app_utility.cpp:1264: detect internet address: 169.254.1.153, ifname=gollum
+[2020-11-11 03:43:58.903][warn][25259][0][2] src/app/srs_app_config.cpp:1718: stats network use index=0, ip=10.0.0.17
+[2020-11-11 03:43:58.903][warn][25259][0][2] src/app/srs_app_config.cpp:1723: stats disk not configed, disk iops disabled.
+[2020-11-11 03:43:58.903][trace][25259][0] src/app/srs_app_config.cpp:1764: write log to file /var/log/uap/miniapp_srs_7242.log
+[2020-11-11 03:43:58.903][trace][25259][0] src/app/srs_app_config.cpp:1765: you can: tailf /var/log/uap/miniapp_srs_7242.log
+[2020-11-11 03:43:58.903][trace][25259][0] src/app/srs_app_config.cpp:1766: @see: https://github.com/ossrs/srs/wiki/v1_CN_SrsLog
+[2020-11-11 03:43:58.903][trace][25259][0] src/main/srs_main_server.cpp:295: SRS/2.0.215(ZhouGuowen), stable is SRS/1.0release
+[2020-11-11 03:43:58.903][trace][25259][0] src/main/srs_main_server.cpp:296: license: The MIT License (MIT), Copyright (c) 2013-2015 SRS(ossrs)
+[2020-11-11 03:43:58.903][trace][25259][0] src/main/srs_main_server.cpp:297: primary/master: SRS/1.0release
+[2020-11-11 03:43:58.903][trace][25259][0] src/main/srs_main_server.cpp:298: authors: winlin,wenjie.zhao
+[2020-11-11 03:43:58.903][trace][25259][0] src/main/srs_main_server.cpp:299: contributors: 
+[2020-11-11 03:43:58.903][trace][25259][0] src/main/srs_main_server.cpp:300: uname: Linux 5060d782d3d9 5.4.39-linuxkit #1 SMP Fri May 8 23:03:06 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+[2020-11-11 03:43:58.903][trace][25259][0] src/main/srs_main_server.cpp:301: build: 2020-11-08 10:18:56, little-endian
+[2020-11-11 03:43:58.903][trace][25259][0] src/main/srs_main_server.cpp:302: configure: --x86-x64  --without-utest --without-gperf
+[2020-11-11 03:43:58.903][trace][25259][0] src/main/srs_main_server.cpp:303: features: --prefix=/usr/local/srs --with-hls --with-hds --with-dvr --without-nginx --with-ssl --without-ffmpeg --with-transcode --with-ingest --with-stat --with-http-callback --with-http-server --without-stream-caster --with-http-api --with-librtmp --without-research --without-utest --without-gperf --without-gmc --without-gmp --without-gcp --without-gprof --without-arm-ubuntu12 --without-mips-ubuntu12 --log-trace
+[2020-11-11 03:43:58.903][trace][25259][0] src/main/srs_main_server.cpp:308: conf: conf/rtmp-7242.conf, limit: 1000, external shell: 
+[2020-11-11 03:43:58.903][trace][25259][0] src/main/srs_main_server.cpp:210: writev limits write 1024 iovs a time
+[2020-11-11 03:43:58.903][warn][25259][0][2] src/main/srs_main_server.cpp:214: SRS 2.0.215 is not stable, please use stable branch 1.0release instead
+[2020-11-11 03:43:58.903][trace][25259][0] src/main/srs_main_server.cpp:233: cpu is amd64, glibc 2.19
+[2020-11-11 03:43:58.903][trace][25259][0] src/main/srs_main_server.cpp:236: cpu is x86_64, glibc 2.19
+[2020-11-11 03:43:58.903][trace][25259][0] src/main/srs_main_server.cpp:66: check feature rtmp handshake: on
+[2020-11-11 03:43:58.903][trace][25259][0] src/main/srs_main_server.cpp:72: check feature hls: on
+[2020-11-11 03:43:58.903][trace][25259][0] src/main/srs_main_server.cpp:78: check feature hds: on
+[2020-11-11 03:43:58.903][trace][25259][0] src/main/srs_main_server.cpp:84: check feature http callback: on
+[2020-11-11 03:43:58.903][trace][25259][0] src/main/srs_main_server.cpp:90: check feature http api: on
+[2020-11-11 03:43:58.903][trace][25259][0] src/main/srs_main_server.cpp:96: check feature http server: on
+[2020-11-11 03:43:58.903][trace][25259][0] src/main/srs_main_server.cpp:102: check feature http parser: on
+[2020-11-11 03:43:58.903][trace][25259][0] src/main/srs_main_server.cpp:108: check feature dvr: on
+[2020-11-11 03:43:58.903][trace][25259][0] src/main/srs_main_server.cpp:114: check feature transcode: on
+[2020-11-11 03:43:58.904][trace][25259][0] src/main/srs_main_server.cpp:120: check feature ingest: on
+[2020-11-11 03:43:58.904][trace][25259][0] src/main/srs_main_server.cpp:126: check feature system stat: on
+[2020-11-11 03:43:58.904][warn][25259][0][2] src/main/srs_main_server.cpp:134: check feature compile nginx: off
+[2020-11-11 03:43:58.904][warn][25259][0][2] src/main/srs_main_server.cpp:140: check feature compile ffmpeg: off
+[2020-11-11 03:43:58.904][warn][25259][0][2] src/main/srs_main_server.cpp:146: stream caster: off
+[2020-11-11 03:43:58.904][trace][25259][0] src/main/srs_main_server.cpp:150: MR(merged-read): on, @see https://github.com/ossrs/srs/issues/241
+[2020-11-11 03:43:58.904][trace][25259][0] src/main/srs_main_server.cpp:155: MR(merged-read) default 0 sleep 350
+[2020-11-11 03:43:58.904][trace][25259][0] src/main/srs_main_server.cpp:156: MW(merged-write) default sleep 350
+[2020-11-11 03:43:58.904][trace][25259][0] src/main/srs_main_server.cpp:157: read chunk stream cache cid [0, 16)
+[2020-11-11 03:43:58.904][trace][25259][0] src/main/srs_main_server.cpp:158: default gop cache 1, play queue 350s
+[2020-11-11 03:43:58.904][trace][25259][0] src/main/srs_main_server.cpp:163: complex send algorithm enabled.
+[2020-11-11 03:43:58.904][warn][25259][0][2] src/main/srs_main_server.cpp:167: TCP_NODELAY enabled, may hurts performance.
+[2020-11-11 03:43:58.904][trace][25259][0] src/main/srs_main_server.cpp:175: auto guess socket send buffer by merged write
+[2020-11-11 03:43:58.904][trace][25259][0] src/main/srs_main_server.cpp:183: system default latency in ms: mw(0-350) + mr(0-350) + play-queue(0--1376657104)
+[2020-11-11 03:43:58.904][trace][25259][0] src/app/srs_app_http_static.cpp:269: http: root mount to ./objs/nginx/html
+[2020-11-11 03:43:58.904][trace][25259][0] src/app/srs_app_http_conn.cpp:1369: Init shell: 
+[2020-11-11 03:43:58.904][trace][25259][0] src/app/srs_app_st.cpp:222: st_set_eventsys to epoll
+[2020-11-11 03:43:58.904][trace][25259][0] src/app/srs_app_st.cpp:229: st_init success, use epoll
+[2020-11-11 03:43:58.904][trace][25259][100] src/app/srs_app_server.cpp:645: server main cid=100
+[2020-11-11 03:43:58.904][trace][25259][100] src/app/srs_app_server.cpp:730: write pid=25259 to /var/run/srs-7242.pid success!
+[2020-11-11 03:43:58.914][trace][25259][100] src/app/srs_app_server.cpp:165: RTMP listen at tcp://0.0.0.0:7242, fd=9
+[2020-11-11 03:43:58.914][trace][25259][100] src/app/srs_app_server.cpp:443: signal installed
+[2020-11-11 03:43:58.924][trace][25259][100] src/app/srs_app_server.cpp:838: http: api mount /console to ./objs/nginx/html/console
+[2020-11-11 03:43:58.934][trace][25259][100] src/app/srs_app_ingest.cpp:139: ingest thread cid=103, current_cid=100
